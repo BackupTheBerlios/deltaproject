@@ -1,35 +1,36 @@
 \select@language {french}
 \contentsline {chapter}{\numberline {1}Pr\'eambule}{4}
-\contentsline {chapter}{\numberline {2}La charte graphique}{5}
-\contentsline {chapter}{\numberline {3}La zone de pr\'esentation}{6}
-\contentsline {chapter}{\numberline {4}La zone d'identification}{7}
-\contentsline {chapter}{\numberline {5}La zone de localisation}{8}
-\contentsline {chapter}{\numberline {6}La zone des liens}{9}
-\contentsline {chapter}{\numberline {7}La zone annexe}{10}
-\contentsline {chapter}{\numberline {8}La zone de visualisation}{11}
-\contentsline {section}{\numberline {8.1}Pr\'esentation}{11}
-\contentsline {section}{\numberline {8.2}Mes enseignements}{12}
-\contentsline {subsection}{\numberline {8.2.1}Page principale}{12}
-\contentsline {subsection}{\numberline {8.2.2}Attacher un TD}{14}
-\contentsline {subsection}{\numberline {8.2.3}Liste des professeurs de l'enseignement}{15}
-\contentsline {section}{\numberline {8.3}Consulter son compte}{16}
-\contentsline {section}{\numberline {8.4}Cr\'eer un projet}{18}
-\contentsline {subsection}{\numberline {8.4.1}Page principale}{18}
-\contentsline {subsection}{\numberline {8.4.2}A partir d'un ancien}{18}
-\contentsline {subsection}{\numberline {8.4.3}Nouveau projet}{20}
-\contentsline {subsection}{\numberline {8.4.4}Editeur de bord}{21}
-\contentsline {section}{\numberline {8.5}Cr\'eer un TD}{22}
-\contentsline {subsection}{\numberline {8.5.1}Page principale}{22}
-\contentsline {subsection}{\numberline {8.5.2}A partir d'un ancien}{22}
-\contentsline {subsection}{\numberline {8.5.3}Nouveau TD}{24}
-\contentsline {subsection}{\numberline {8.5.4}Editeurs de bord}{24}
-\contentsline {section}{\numberline {8.6}Feuille de style}{27}
-\contentsline {section}{\numberline {8.7}Cr\'eer un exercice}{28}
-\contentsline {subsection}{\numberline {8.7.1}Page principale}{28}
-\contentsline {subsection}{\numberline {8.7.2}A partir d'un ancien}{29}
-\contentsline {subsection}{\numberline {8.7.3}Nouvel exercice}{29}
-\contentsline {subsection}{\numberline {8.7.4}Import}{30}
-\contentsline {subsection}{\numberline {8.7.5}Editeur de bord avec/sans balise XML}{30}
-\contentsline {section}{\numberline {8.8}Cr\'eer un enseignement}{32}
-\contentsline {section}{\numberline {8.9}Cr\'eer un compte}{34}
-\contentsline {section}{\numberline {8.10}La corbeille}{36}
+\contentsline {chapter}{\numberline {2}Introduction}{5}
+\contentsline {chapter}{\numberline {3}La charte graphique}{7}
+\contentsline {chapter}{\numberline {4}La zone de pr\'esentation}{8}
+\contentsline {chapter}{\numberline {5}La zone d'identification}{9}
+\contentsline {chapter}{\numberline {6}La zone de localisation}{10}
+\contentsline {chapter}{\numberline {7}La zone des liens}{11}
+\contentsline {chapter}{\numberline {8}La zone annexe}{12}
+\contentsline {chapter}{\numberline {9}La zone de visualisation}{13}
+\contentsline {section}{\numberline {9.1}Pr\'esentation}{13}
+\contentsline {section}{\numberline {9.2}Mes enseignements}{14}
+\contentsline {subsection}{\numberline {9.2.1}Page principale}{14}
+\contentsline {subsection}{\numberline {9.2.2}Attacher un TD}{16}
+\contentsline {subsection}{\numberline {9.2.3}Liste des professeurs de l'enseignement}{17}
+\contentsline {section}{\numberline {9.3}Consulter son compte}{18}
+\contentsline {section}{\numberline {9.4}Cr\'eer un projet}{20}
+\contentsline {subsection}{\numberline {9.4.1}Page principale}{20}
+\contentsline {subsection}{\numberline {9.4.2}A partir d'un ancien}{20}
+\contentsline {subsection}{\numberline {9.4.3}Nouveau projet}{22}
+\contentsline {subsection}{\numberline {9.4.4}Editeur de bord}{23}
+\contentsline {section}{\numberline {9.5}Cr\'eer un TD}{24}
+\contentsline {subsection}{\numberline {9.5.1}Page principale}{24}
+\contentsline {subsection}{\numberline {9.5.2}A partir d'un ancien}{24}
+\contentsline {subsection}{\numberline {9.5.3}Nouveau TD}{26}
+\contentsline {subsection}{\numberline {9.5.4}Editeurs de bord}{26}
+\contentsline {section}{\numberline {9.6}Feuille de style}{29}
+\contentsline {section}{\numberline {9.7}Cr\'eer un exercice}{30}
+\contentsline {subsection}{\numberline {9.7.1}Page principale}{30}
+\contentsline {subsection}{\numberline {9.7.2}A partir d'un ancien}{31}
+\contentsline {subsection}{\numberline {9.7.3}Nouvel exercice}{31}
+\contentsline {subsection}{\numberline {9.7.4}Import}{32}
+\contentsline {subsection}{\numberline {9.7.5}Editeur de bord avec/sans balise XML}{32}
+\contentsline {section}{\numberline {9.8}Cr\'eer un enseignement}{34}
+\contentsline {section}{\numberline {9.9}Cr\'eer un compte}{36}
+\contentsline {section}{\numberline {9.10}La corbeille}{38}
