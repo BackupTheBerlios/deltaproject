@@ -4,54 +4,74 @@
 \scalebox{0.7}{\includegraphics{images/FAQ.jpg}}\\
 \par{Package Gestion Faq}
 \end{center}
-Voici les différents scénarios:\\
+Voici les diff{\'e}rents sc{\'e}narios:\\
+
+\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
+\hline
+Fonction & Priorit{\'e} & Qualit{\'e} & Mesure \\
+\hline
+Consulter la FAQ d'un exercice & 1 & Lisibilit{\'e} & Bonne distinction entre les questions et les r{\'e}ponses gr{\^a}ce {\`a} l'utilisation de couleurs.\\
+\hline
+\end{tabular}\\
+
+\begin{center}
+{\'e}chelle de mesure de la priorit{\'e}:
+
+\scalebox{0.5}{\includegraphics{images/echelle.jpg}}
+\end{center}
+
 	\begin{itemize}
 	\item Consultant :
 		\begin{itemize}
 			\item Consulter une FAQ d'un exercice:
 			\begin{itemize}
-			\item Pré-requis : Etre logé/identifié.\\
-			L'exercice possède une FAQ.
-			\item Description :  L'utilisateur sélectionne un exercice.\\
-			L'utilisateur consulte le fichier FAQ associé à l'exercice.
-			\item Post-requis : La FAQ de l'exercice sélectionné est affichée.
+			\item Pr{\'e}-requis : Etre log{\'e}/identifi{\'e}.\\
+			L'exercice poss{\`e}de une FAQ.
+			\item Description :  L'utilisateur s{\'e}lectionne un exercice.\\
+			L'utilisateur consulte le fichier FAQ associ{\'e} {\`a} l'exercice.
+			\item Post-requis : La FAQ de l'exercice s{\'e}lectionn{\'e} est affich{\'e}e.
 			\end{itemize}		
 		\end{itemize}
+	\end{itemize}
+\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
+\hline
+Fonction & Priorit{\'e} & Qualit{\'e} & Mesure \\
+\hline
+Associer une FAQ {\`a} un exercice & 1 & Facilit{\'e} & Utilisation de menus simples\\
+\hline
+D{\'e}sassocier une FAQ {\`a} un exercice & 1 & Facilit{\'e} & Action simple sans archivage\\
+\hline
+\end{tabular}\\
 
+\begin{center}
+{\'e}chelle de mesure de la priorit{\'e}:
+
+\scalebox{0.5}{\includegraphics{images/echelle.jpg}}
+\end{center}
+
+
+	\begin{itemize}
 	\item Enseignant
 		\begin{itemize}
-		\item Associer une FAQ à un exercice:
+		\item Associer une FAQ {\`a} un exercice:
 			\begin{itemize}
-			\item Pré-requis : Etre logé/identifié.\\
-			L'exercice ne possède pas encore de FAQ.
+			\item Pr{\'e}-requis : Etre log{\'e}/identifi{\'e}.\\
+			L'exercice ne poss{\`e}de pas encore de FAQ.
 			\item Description :  L'utilisateur selectionne un exercice.\\
 			L'utilisateur clique l'option {\it Ajouter une FAQ}.\\
 			L'utilisateur choisit un fichier qui se trouve sur son compte.
-			L'utilisateur importe un fichier FAQ et l'associe à cet exercice.
-			\item Post-requis : L'exercice possède une FAQ associée.
+			L'utilisateur importe un fichier FAQ et l'associe {\`a} cet exercice.
+			\item Post-requis : L'exercice poss{\`e}de une FAQ associ{\'e}e.
 			\end{itemize}
 
-		\item Désassocier une FAQ d'un exercice:
+		\item D{\'e}sassocier une FAQ d'un exercice:
 			\begin{itemize}
-			\item Pré-requis : Etre logé/identifié.\\
-			L'exercice possède une FAQ.
+			\item Pr{\'e}-requis : Etre log{\'e}/identifi{\'e}.\\
+			L'exercice poss{\`e}de une FAQ.
 			\item Description :  L'utilisateur selectionne un exercice.\\
 			L'utilisateur clique sur l'option {\it Supprimer une FAQ}.
-			\item Post-requis : L'exercice ne possède plus de FAQ associée.\\
+			\item Post-requis : L'exercice ne poss{\`e}de plus de FAQ associ{\'e}e.\\
 			\end{itemize}
 		\end{itemize}
 	\end{itemize}
 
-Voyons maintenant les priorités des différentes actions quant au
-développement du logiciel (échelle : voir préambule).\\\\\\
-\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
-\hline
-Fonction & Priorité & Qualité & Mesure \\
-\hline
-Consulter la FAQ d'un exercice & 1 & Lisibilité & Bonne distinction entre les questions et les réponses grâce à l'utilisation de couleurs.\\
-\hline
-Associer une FAQ à un exercice & 1 & Facilité & Utilisation de menus simples\\
-\hline
-Désassocier une FAQ à un exercice & 1 & Facilité & Action simple sans archivage\\
-\hline
-\end{tabular}
