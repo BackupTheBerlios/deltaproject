@@ -1,0 +1,14 @@
+Prerequis:
+Etre identifié.
+Il faut qu'au moins un exercice de type projet (gros exercice) soit enregistré.
+
+
+scénario:
+L'enseignant pénêtre dans l'intranet. Il s'identifie avec son login et son mot de passe. 
+Il sélectionne le lien lui permettant de se diriger vers la page de création de projet.
+Il sélection la section et la matière pour lesquels le projet est destiné. Ensuite, soit il sélectionne dans une liste l'exercice de type projet pré-enregistré souhaité pour ce projet ou soit l'"updload" à partir d'un fichier XML . Il valide sa sélection.
+
+
+
+postrequis:
+un nouveau projet est enregistré dans la liste des projets disponibles.
