@@ -1,45 +1,13 @@
-	\section{Droit}
+\section{Droit}
 
 \begin{center}
 %\scalebox{0.7}{\includegraphics{images/droit.jpg}}\\
 \par{Paquetage Droit}
 \end{center}
 Voici les diff{\'e}rents sc{\'e}narios:\\
-	\begin{itemize}
-	\item Responsable
-		\begin{itemize}	
-		\item Rechercher les enseignants du groupe d'enseignement :
-			\begin{itemize}
-			\item Pr{\'e}-requis : {\^e}tre loger en tant que responsable.
-			\item Description : L'utilisateur clique sur le lien {\it Rechercher enseignant}.\\
-			Il donne aux choix avec ou sans crit{\`e}res qui donne une liste des enseignants qui appartiennent au groupe d'enseignement choisit.
-			\item Post-requis : La liste est affich{\'e}.
-			\end{itemize}
-		\end{itemize}	
-		\begin{itemize}
-		\item Donner les droits sur un enseignement:
-			\begin{itemize}
-			\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e} comme responsable de l'enseignement qu'il va modifier.\\
-			Avoir list{\'e} avant tous les enseignemts qui veut mettre en responsable de l'enseignement. 
-			\item Description : Il ajoute a sont enseignemement des enseignent qui deviennent responsable eux aussi de cette enseignement.
-			\item Post-requis : Des droits ont {\'e}t{\'e}s donn{\'e}s {\`a} d'autre enseignements que le cr{\'e}ateur
-			\end{itemize}
-		\end{itemize}
-	\item Administrateur
-		\begin{itemize}
-		\item Modifier les droits :
-			\begin{itemize}
-			\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e}. 
-			\item Description : L'administrateur va modifier les droits des responsables.\\
-			Il peut retirer le droit a un responsable et le faire donc passer simple enseignent.\\
-			Il peut faire passer une enseignent en responsable.\\
-			\item Post-requis : Les modifications ont {\'e}t{\'e} effectu{\'e}es et sauvgard{\'e}es.
-			\end{itemize}
-		\end{itemize}
-	\end{itemize}
-\newpage
-Voyons maintenant les priorit{\'e}s des diff{\'e}rentes actions quant au
-d{\'e}veloppement du logiciel.\\\\\\
+
+\section*{Responsable}
+
 \begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
 \hline
   Fonction & Priorit{\'e} & Qualit{\'e} & Mesure \\
@@ -48,11 +16,54 @@ Rechercher les enseignants du groupe d'enseignement & 3 &  pr{\'e}cis & la reche
 \hline
 Donner les droits sur un enseignement & 2 & sur & les droits doivent {\^e}tre donn{\'e}s sans erreurs\\
 \hline
-Modifier les droits & 2 & fiable; sur & \\
-\hline
 \end{tabular}
+
 \begin{center}
 {\'e}chelle de mesure de la priorit{\'e}:
 
 \scalebox{0.5}{\includegraphics{images/echelle.jpg}}
 \end{center}
+
+\begin{itemize}	
+\item {\bf Rechercher les enseignants du groupe d'enseignement :}
+	\begin{itemize}
+	\item Pr{\'e}-requis : {\^e}tre loger en tant que responsable.
+	\item Description : L'utilisateur clique sur le lien {\it Rechercher enseignant}.\\
+	Il donne aux choix avec ou sans crit{\`e}res qui donne une liste des enseignants qui appartiennent au groupe d'enseignement choisit.
+	\item Post-requis : La liste est affich{\'e}.
+	\end{itemize}
+\item {\bf Donner les droits sur un enseignement:}
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e} comme responsable de l'enseignement qu'il va modifier.\\
+	Avoir list{\'e} avant tous les enseignemts qui veut mettre en responsable de l'enseignement. 
+	\item Description : Il ajoute a sont enseignemement des enseignent qui deviennent responsable eux aussi de cette enseignement.
+	\item Post-requis : Des droits ont {\'e}t{\'e}s donn{\'e}s {\`a} d'autre enseignements que le cr{\'e}ateur
+	\end{itemize}
+\end{itemize}
+
+\section*{Administrateur}
+
+\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
+\hline
+  Fonction & Priorit{\'e} & Qualit{\'e} & Mesure \\
+\hline
+Modifier les droits & 2 & fiable; sur & \\
+\hline
+\end{tabular}
+
+\begin{center}
+{\'e}chelle de mesure de la priorit{\'e}:
+
+\scalebox{0.5}{\includegraphics{images/echelle.jpg}}
+\end{center}
+
+\begin{itemize}
+\item {\bf Modifier les droits :}
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e}. 
+	\item Description : L'administrateur va modifier les droits des responsables.\\
+	Il peut retirer le droit a un responsable et le faire donc passer simple enseignent.\\
+	Il peut faire passer une enseignent en responsable.\\
+	\item Post-requis : Les modifications ont {\'e}t{\'e} effectu{\'e}es et sauvgard{\'e}es.
+	\end{itemize}
+\end{itemize}

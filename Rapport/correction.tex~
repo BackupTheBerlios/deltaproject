@@ -5,57 +5,59 @@
 \par{Package Gestion Correction}
 \end{center}
 
-Voici les différents scénarios:\\
+Voici les diff{\'e}rents sc{\'e}narios:\\
 
-	\begin{itemize}
-	\item Enseignant
-		\begin{itemize}
-		\item Consulter une correction à un exercice:
-			\begin{itemize}
-			\item Pré-requis : Etre logé/identifié.\\
-			L'exercice possède au moins une correction associée.
-			\item Description :  L'utilisateur selectionne un exercice.\\
-			L'utilisateur consulte la correction associée à l'exercice.
-			\item Post-requis : La correction de l'exercice sélectionné est affichée.
-			\end{itemize}
-
-		\item Associer une correction à un exercice:
-			\begin{itemize}
-			\item Pré-requis : Etre logé
-			\item Description :  L'utilisateur selectionne un exercice.\\
-			L'utilisateur importe un fichier correction et l'associe à cet exercice.
-			\item Post-requis : L'exercice sélectionné possède une correction associée.
-			\end{itemize}
-
-		\item Désassocier une correction d'un exercice:
-			\begin{itemize}
-			\item Pré-requis : Etre logé\\
-			L'exercice possède au moins une correction associé.
-			\item Description : L'utilisateur selectionne un exercice.\\
-			L'utilisateur supprime le fichier correction associée à cet exercice.
-			\item Post-requis : L'exercice ne possède plus de correction associée.\\
-			\end{itemize}
-			
-		\end{itemize}
-	\end{itemize}
-\newpage
-Voyons maintenant les priorités des différentes actions quant au
-développement du logiciel (échelle : voir préambule).\\\\\\
+\section*{Enseignant}
 
 \begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
 \hline
-  Fonction & Priorité & Qualité & Mesure \\
+  Fonction & Priorit{\'e} & Qualit{\'e} & Mesure \\
 \hline
-Consulter la correction d'un exercice & 3 & Fiabilité, Lisibilité &
+Consulter la correction d'un exercice & 3 & Fiabilit{\'e}, Lisibilit{\'e} &
   Pas le droit de modifier la correction lors de la
   consultation. Lecture claire.\\
 \hline
-Associer une correction à un exercice & 3 & Fiable et Facile &
-  Correction bien assignée à l'exercice sélectionné. Association par
+Associer une correction {\`a} un exercice & 3 & Fiable et Facile &
+  Correction bien assign{\'e}e {\`a} l'exercice s{\'e}lectionn{\'e}. Association par
   des menus simples.\\
 \hline
-Désassocier une correction à un exercice & 3 & Fiable et Facile &
-  Correction bien désassocié de l'exercice sélectionné. Désassociation par
+D{\'e}sassocier une correction {\`a} un exercice & 3 & Fiable et Facile &
+  Correction bien d{\'e}sassoci{\'e} de l'exercice s{\'e}lectionn{\'e}. D{\'e}sassociation par
   des menus simples.\\
 \hline
 \end{tabular}
+\begin{center}
+{\'e}chelle de mesure de la priorit{\'e}:
+
+\scalebox{0.5}{\includegraphics{images/echelle.jpg}}
+\end{center}
+
+
+\begin{itemize}
+\item Consulter une correction {\`a} un exercice:
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre log{\'e}/identifi{\'e}.\\
+	L'exercice poss{\`e}de au moins une correction associ{\'e}e.
+	\item Description :  L'utilisateur selectionne un exercice.\\
+	L'utilisateur consulte la correction associ{\'e}e {\`a} l'exercice.
+	\item Post-requis : La correction de l'exercice s{\'e}lectionn{\'e} est affich{\'e}e.
+	\end{itemize}
+
+\item Associer une correction {\`a} un exercice:
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre log{\'e}
+	\item Description :  L'utilisateur selectionne un exercice.\\
+	L'utilisateur importe un fichier correction et l'associe {\`a} cet exercice.
+	\item Post-requis : L'exercice s{\'e}lectionn{\'e} poss{\`e}de une correction associ{\'e}e.
+	\end{itemize}
+
+\item D{\'e}sassocier une correction d'un exercice:
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre log{\'e}\\
+	L'exercice poss{\`e}de au moins une correction associ{\'e}.
+	\item Description : L'utilisateur selectionne un exercice.\\
+	L'utilisateur supprime le fichier correction associ{\'e}e {\`a} cet exercice.
+	\item Post-requis : L'exercice ne poss{\`e}de plus de correction associ{\'e}e.\\
+	\end{itemize}
+			
+\end{itemize}

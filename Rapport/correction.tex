@@ -7,40 +7,7 @@
 
 Voici les diff{\'e}rents sc{\'e}narios:\\
 
-	\begin{itemize}
-	\item Enseignant
-		\begin{itemize}
-		\item Consulter une correction {\`a} un exercice:
-			\begin{itemize}
-			\item Pr{\'e}-requis : Etre log{\'e}/identifi{\'e}.\\
-			L'exercice poss{\`e}de au moins une correction associ{\'e}e.
-			\item Description :  L'utilisateur selectionne un exercice.\\
-			L'utilisateur consulte la correction associ{\'e}e {\`a} l'exercice.
-			\item Post-requis : La correction de l'exercice s{\'e}lectionn{\'e} est affich{\'e}e.
-			\end{itemize}
-
-		\item Associer une correction {\`a} un exercice:
-			\begin{itemize}
-			\item Pr{\'e}-requis : Etre log{\'e}
-			\item Description :  L'utilisateur selectionne un exercice.\\
-			L'utilisateur importe un fichier correction et l'associe {\`a} cet exercice.
-			\item Post-requis : L'exercice s{\'e}lectionn{\'e} poss{\`e}de une correction associ{\'e}e.
-			\end{itemize}
-
-		\item D{\'e}sassocier une correction d'un exercice:
-			\begin{itemize}
-			\item Pr{\'e}-requis : Etre log{\'e}\\
-			L'exercice poss{\`e}de au moins une correction associ{\'e}.
-			\item Description : L'utilisateur selectionne un exercice.\\
-			L'utilisateur supprime le fichier correction associ{\'e}e {\`a} cet exercice.
-			\item Post-requis : L'exercice ne poss{\`e}de plus de correction associ{\'e}e.\\
-			\end{itemize}
-			
-		\end{itemize}
-	\end{itemize}
-\newpage
-Voyons maintenant les priorit{\'e}s des diff{\'e}rentes actions quant au
-d{\'e}veloppement du logiciel.\\\\\\
+\section*{Enseignant}
 
 \begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
 \hline
@@ -59,8 +26,39 @@ D{\'e}sassocier une correction {\`a} un exercice & 3 & Fiable et Facile &
   des menus simples.\\
 \hline
 \end{tabular}
+
 \begin{center}
 {\'e}chelle de mesure de la priorit{\'e}:
 
 \scalebox{0.5}{\includegraphics{images/echelle.jpg}}
 \end{center}
+
+
+\begin{itemize}
+\item {\bf Consulter une correction {\`a} un exercice:}
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre log{\'e}/identifi{\'e}.\\
+	L'exercice poss{\`e}de au moins une correction associ{\'e}e.
+	\item Description :  L'utilisateur selectionne un exercice.\\
+	L'utilisateur consulte la correction associ{\'e}e {\`a} l'exercice.
+	\item Post-requis : La correction de l'exercice s{\'e}lectionn{\'e} est affich{\'e}e.
+	\end{itemize}
+
+\item {\bf Associer une correction {\`a} un exercice:}
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre log{\'e}
+	\item Description :  L'utilisateur selectionne un exercice.\\
+	L'utilisateur importe un fichier correction et l'associe {\`a} cet exercice.
+	\item Post-requis : L'exercice s{\'e}lectionn{\'e} poss{\`e}de une correction associ{\'e}e.
+	\end{itemize}
+
+\item {\bf D{\'e}sassocier une correction d'un exercice:}
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre log{\'e}\\
+	L'exercice poss{\`e}de au moins une correction associ{\'e}.
+	\item Description : L'utilisateur selectionne un exercice.\\
+	L'utilisateur supprime le fichier correction associ{\'e}e {\`a} cet exercice.
+	\item Post-requis : L'exercice ne poss{\`e}de plus de correction associ{\'e}e.\\
+	\end{itemize}
+			
+\end{itemize}
