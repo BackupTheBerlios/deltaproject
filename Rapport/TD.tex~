@@ -1,0 +1,95 @@
+\section{TD}
+
+\begin{center}
+\scalebox{0.7}{\includegraphics{images/devoir.jpg}}\\
+\end{center}
+
+	\begin{itemize}
+	\item {\bf Consultant :}\\
+		\begin{itemize}
+		\item Rechercher un TD :
+			\begin{itemize}
+			\item Pré-requis : Il faut qu'il y ait au moins un TD de créé.
+			\item Description : Il saisie les mots clefs de sa recherche s'il en a dans la case {\it Mots clefs}.
+			Il valide l'option {\it Recherche}.
+			Une liste de TD apparait.
+			\item Post-requis : La saisie de mot clefs est optionnel, Si aucun mot clefs n'est saisie, la recherche liste l'ensemble des TDs.\\
+			La liste de TD trouvés peut contenir de zero à plusieurs TDs.\\
+			\end{itemize}
+		\item Consulter un devoir :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un TD de créé.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un TD (ou par recherche).\\
+			Il clique pour le visualiser.
+			\item Post-requis : Le TD sélectionné est affiché au format HTML.\\
+			\end{itemize}
+			
+		\item Télécharger un TD :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un devoir de créé et que l'utilisateur ait sélectionné un TD.
+			\item Description : L'utilisateur clique l'option {\it Télécharger}, il sélectionne l'emplacement sur son compte pour copier le devoir et valide.
+			\item Post-requis : Le TD est copié sur le compte du consultant.\\
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+
+	\begin{itemize}
+	\item {\bf Responsable :}\\
+		\begin{itemize}
+		\item Créer un TD :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il sélectionne le lien lui permettant de se diriger vers la page de création du devoir.\\
+			Il sélectionne l'enseignement pour lequel le devoir est destiné.\\
+			Il choisit s'il crée complétement un nouveau TD ou s'il se sert d'un ancien TD :
+			\begin{itemize}
+				\item : S'il crée un nouveau TD : Il saisie les mots clefs qui serviront pour la recherche de ce TD.\\
+				Il sélectionne un ou plusieurs exercices dans une liste d'exercices pré-enregistrés ou il le(s) importe.\\
+				Il choisit la hiérarchie des exercices contenus dans son TD.
+				\item : S'il se sert d'un ancien TD : Le nouveau TD est une copie de l'ancien et l'utilisateur peut alors le modifier.
+			\end{itemize}
+			Il valide sa sélection.
+			\item Post-requis : Un nouveau TD est enregistré dans la liste des TD disponibles.\\
+			\end{itemize}
+
+		\item Déplacer vers la corbeille :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Il faut qu'au moins un TD soit enregistré.\\
+			Il doit être le créateur du TD.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			L'utilisateur doit accéder au TD grâce à la recherche.\\
+			Il clique l'option {\it Mettre dans la corbeille}.\\
+			Il valide sa demande.
+			\item : Post-requis : le TD est déplacé dans la corbeille.\\
+			\end{itemize}
+
+		\end{itemize}
+	\end{itemize}
+
+	\begin{itemize}
+	\item {\bf Administrateur :}\\
+		\begin{itemize}
+		\item Supprimer un TD :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Le TD doit se trouvé dans la corbeille.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il affiche les fichiers contenus dans la corbeille. Il sélectionne le TD qu'il désire supprimer.\\
+			Il clique sur l'option {\it Suppression} et il valide sa sélection.
+			\item Post-requis : Le TD est supprimer.\\
+			\end{itemize}
+
+		\item Restaurer un TD :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Il faut qu'au moins un TD soit dans la corbeille.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il affiche les fichiers contenus dans la corbeille. Il sélectionne le TD qu'il désire restaurer.\\
+			Il clique l'option {\it Restaurer}.\\
+			Il valide sa sélection.
+			\item : Post-requis : le TD est déplacé de la corbeille à l'emplacement qu'il occupait avant d'être placé dans la corbeille.\\
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}

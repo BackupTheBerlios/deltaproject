@@ -1,0 +1,24 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Charte qualit\'e}{4}
+\contentsline {section}{\numberline {1.1}Organisations et m\'ethodologies appliqu\'ees}{4}
+\contentsline {section}{\numberline {1.2}Prestation}{4}
+\contentsline {section}{\numberline {1.3}Mise en place d'un espace client d\'edi\'e pour le suivi des projets}{4}
+\contentsline {section}{\numberline {1.4}Propri\'et\'e intellectuelle}{5}
+\contentsline {section}{\numberline {1.5}Contrat}{5}
+\contentsline {section}{\numberline {1.6}Phases de r\'ealisation}{5}
+\contentsline {chapter}{\numberline {2}Diagramme d'Acteurs}{6}
+\contentsline {chapter}{\numberline {3}Diagramme d'Interaction}{7}
+\contentsline {chapter}{\numberline {4}Les differents paquetages}{8}
+\contentsline {section}{\numberline {4.1}Relations entre les paquetages}{8}
+\contentsline {section}{\numberline {4.2}Identification}{10}
+\contentsline {section}{\numberline {4.3}Droit}{14}
+\contentsline {section}{\numberline {4.4}Gestion des exercices}{16}
+\contentsline {section}{\numberline {4.5}Gestion des FAQ}{19}
+\contentsline {section}{\numberline {4.6}Gestion des corrections}{21}
+\contentsline {section}{\numberline {4.7}Projet}{23}
+\contentsline {section}{\numberline {4.8}TD}{26}
+\contentsline {section}{\numberline {4.9}Gestion des sections}{29}
+\contentsline {section}{\numberline {4.10}Gestion des mati{\`e}res}{31}
+\contentsline {section}{\numberline {4.11}Gestion des enseignements}{33}
+\contentsline {chapter}{\numberline {5}Planning pr\'evisionnel}{36}
+\contentsline {chapter}{\numberline {6}Annexe}{37}

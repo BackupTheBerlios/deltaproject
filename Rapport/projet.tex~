@@ -1,0 +1,92 @@
+\section{Projet}
+
+	\begin{itemize}
+	\item {\bf Consultant :}\\
+		\begin{itemize}
+		\item Rechercher un projet :
+			\begin{itemize}
+			\item Pré-requis : Il faut qu'il y ait au moins un projet de créé.
+			\item Description : Il saisie les mots clefs de sa recherche s'il en a dans la case {\it Mots clefs}.\\
+			Il valide l'option {\it Recherche} et une liste de projet qui répondent à sa recherche apparait
+			\item Post-requis : La saisie de mot clefs est optionnel, Si aucun mot clef n'est saisie, la recherche liste l'ensemble des projets.\\
+			La liste de projet trouvés peut contenir de zéro à plusieurs projets.\\
+			\end{itemize}
+
+		\item Consulter un projet :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un projet de créé.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un projet (ou par recherche).\\
+			Il clique pour le visualiser.
+			\item Post-requis : Le projet sélectionné est affiché au format HTML.\\
+			\end{itemize}
+			
+		\item Télécharger un projet :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un projet de créé et que l'utilisateur ait sélectionné un projet.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un projet (ou par recherche).\\
+			L'utilisateur clique l'option {\it Télécharger}, il sélectionne l'emplacement sur son compte pour copier le projet et valide.
+			\item Post-requis : Le projet est copié sur le compte du consultant.\\
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+
+	\begin{itemize}
+	\item {\bf Responsable :}\\
+		\begin{itemize}
+		\item Créer un projet :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il sélectionne le lien lui permettant de se diriger vers la page de création du projet.\\
+			Il sélectionne l'enseignement pour lequel le projet est destiné.\\
+			Il choisit s'il crée complétement un nouveau projet ou s'il se sert d'un ancien projet :
+			\begin{itemize}
+				\item : S'il crée un nouveau projet : Il saisie les mots clefs qui serviront pour la recherche de ce projet.\\
+				Il sélectionne un ou plusieurs exercices dans une liste d'exercices pré-enregistrés ou il le(s) importe.
+				\item : S'il se sert d'un ancien projet : Le nouveau projet est une copie de l'ancien et l'utilisateur peut alors le modifier.\\
+				L'utilisateur peut alors modifier.
+			\end{itemize}
+			Il valide ses choix.
+			\item Post-requis : Un projet ne peut contenir qu'un seul exercice.\\  
+			Un nouveau projet est enregistré dans la liste des projets disponibles.\\
+			\end{itemize}
+
+		\item Déplacer vers la corbeille :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Il faut qu'au moins un projet soit enregistré.\\
+			Il doit être le créateur du projet.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			L'utilisateur doit accéder au projet grâce à la recherche.\\
+			Il clique l'option {\it Mettre dans la corbeille}.\\
+			Il valide sa demande.
+			\item : Post-requis : le projet est déplacé dans la corbeille.\\
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+
+	\begin{itemize}
+	\item {\bf Administrateur :}\\
+		\begin{itemize}
+		\item Supprimer un projet :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Le projet doit se trouver dans la corbeille.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il affiche les fichiers contenus dans la corbeille. Il sélectionne le projet qu'il désire supprimer.\\
+			Il clique sur l'option {\it Suppression} et il valide sa sélection.
+			\item Post-requis : Le projet est supprimer.\\
+			\end{itemize}
+
+		\item Restaurer un projet :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Il faut qu'au moins un projet soit dans la corbeille.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il affiche les fichiers contenus dans la corbeille. Il sélectionne le projet qu'il désire restaurer.\\
+			Il clique l'option {\it Restaurer}.\\
+			Il valide sa sélection.
+			\item : Post-requis : le projet est déplacé de la corbeille à l'emplacement qu'il occupait avant d'être placé dans la corbeille.\\
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}

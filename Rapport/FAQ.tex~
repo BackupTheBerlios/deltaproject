@@ -1,0 +1,57 @@
+\section{Gestion des FAQ}
+
+\begin{center}
+\scalebox{0.7}{\includegraphics{images/FAQ.jpg}}\\
+\par{Package Gestion Faq}
+\end{center}
+Voici les différents scénarios:\\
+	\begin{itemize}
+	\item Consultant :
+		\begin{itemize}
+			\item Consulter une FAQ d'un exercice:
+			\begin{itemize}
+			\item Pré-requis : Etre logé/identifié.\\
+			L'exercice possède une FAQ.
+			\item Description :  L'utilisateur sélectionne un exercice.\\
+			L'utilisateur consulte le fichier FAQ associé à l'exercice.
+			\item Post-requis : La FAQ de l'exercice sélectionné est affichée.
+			\end{itemize}		
+		\end{itemize}
+
+	\item Enseignant
+		\begin{itemize}
+		\item Associer une FAQ à un exercice:
+			\begin{itemize}
+			\item Pré-requis : Etre logé/identifié.\\
+			L'exercice ne possède pas encore de FAQ.
+			\item Description :  L'utilisateur selectionne un exercice.\\
+			L'utilisateur clique l'option {\it Ajouter une FAQ}.\\
+			L'utilisateur choisit un fichier qui se trouve sur son compte.
+			L'utilisateur importe un fichier FAQ et l'associe à cet exercice.
+			\item Post-requis : L'exercice possède une FAQ associée.
+			\end{itemize}
+
+		\item Désassocier une FAQ d'un exercice:
+			\begin{itemize}
+			\item Pré-requis : Etre logé/identifié.\\
+			L'exercice possède une FAQ.
+			\item Description :  L'utilisateur selectionne un exercice.\\
+			L'utilisateur clique sur l'option {\it Supprimer une FAQ}.
+			\item Post-requis : L'exercice ne possède plus de FAQ associée.\\
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+
+Voyons maintenant les priorités des différentes actions quant au
+développement du logiciel (échelle : voir préambule).\\\\\\
+\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
+\hline
+Fonction & Priorité & Qualité & Mesure \\
+\hline
+Consulter la FAQ d'un exercice & 1 & Lisibilité & Bonne distinction entre les questions et les réponses grâce à l'utilisation de couleurs.\\
+\hline
+Associer une FAQ à un exercice & 1 & Facilité & Utilisation de menus simples\\
+\hline
+Désassocier une FAQ à un exercice & 1 & Facilité & Action simple sans archivage\\
+\hline
+\end{tabular}

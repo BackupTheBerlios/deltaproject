@@ -1,0 +1,120 @@
+\section{Gestion des devoirs}
+
+\begin{center}
+\scalebox{0.7}{\includegraphics{images/devoir.jpg}}\\
+\par{Package Gestion Devoir}
+\end{center}
+
+Voici les différents scénarios:\\
+	\begin{itemize}
+	\item Consultant
+		\begin{itemize}
+		\item Visualiser un devoir :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un devoir de créé.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un projet ou un TD.\\
+			Il clique pour le visualiser.
+			\item Post-requis : Le devoir sélectionné est affiché au format HTML.
+			\end{itemize}
+			
+		\item Télécharger un devoir :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un devoir de créé.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un projet ou un TD.\\
+			Il clique pour le visualiser.
+			\item Post-requis : Le devoir sélectionné est affiché au format HTML.
+			\end{itemize}
+
+		\item Lister des devoirs :
+			\begin{itemize}
+			\item Pré-requis :Il faut qu'il y ait au moins un devoir de créé.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un projet ou un TD.\\
+			Il clique pour le visualiser.
+			\item Post-requis : Le devoir sélectionné est affiché au format HTML.
+			\end{itemize}
+				
+		\item Rechercher un devoir :
+			\begin{itemize}
+			\item Pré-requis : Il faut qu'il y ait au moins un devoir de créé.
+			\item Description : Il sélectionne successivement les liens lui permettant d'atteindre un projet ou un TD.\\
+			Il clique pour le visualiser.
+			\item Post-requis :Le devoir sélectionné est affiché au format HTML.
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+
+	\begin{itemize}
+	\item Enseignant :
+		\begin{itemize}
+		\item Créer un devoir :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il sélectionne le lien lui permettant de se diriger vers la page de création du devoir.\\
+			Il sélectionne l'enseignement pour lequel le devoir est destiné.\\
+			Il selectionne le type de devoir c'est-à-dire un projet ou un TD.\\
+			Il sélectionne un ou plusieurs exercices dans une liste d'exercices pré-enregistrés ou il le(s) importe.\\
+			Il choisit pour chaque exercice son emplacement dans la hierarchie.\\
+			Remarque: Un projet ne peut contenir qu'un seul exercice.\\  
+			Il valide sa sélection.
+			\item Post-requis : Un nouveau devoir est enregistré dans la liste des devoirs disponibles (Projet ou TD).
+			\end{itemize}
+
+		\item Modifier devoir :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Il faut qu'au moins un projet soit enregistré.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il sélectionne le lien lui permettant de se diriger vers la page des devoirs dans un enseignement.\\
+			Il peut déplacer le devoir dans un autre enseignement. \\
+			Il peut modifier le devoir par un autre exercice de type projet dans la liste des exercices.\\
+			Il valide sa sélection.
+			\item : Avertissement : Si l'enseignant qui modifie le projet n'est pas son créateur, alors une sauvegarde de l'élément modifié sera effectué pour avoir la possibilité de revenir sur cette modification.
+			\item Post-requis : Le devoir est modifié dans la liste des devoir disponibles.
+			\end{itemize}
+
+		\item Supprimer devoir :
+			\begin{itemize}
+			\item Pré-requis : Etre identifié.\\
+			Il faut qu'au moins un devoir soit enregistré.\\
+			Il doit être le créateur du devoir.
+			\item Description : Il s'identifie avec son login et son mot de passe.\\
+			Il sélectionne successivement les liens lui permettant de se diriger vers la page de modification de devoir.\\
+			Il peut demander la suppression du devoir. Il valide sa demande.
+			\item : Avertissement : Un enseignant ne peut pas supprimer un devoir ne lui appartenant pas.
+			\item : Post-requis : le devoir est supprimé (s'il est son créateur).\\
+			\end{itemize}
+
+		\end{itemize}
+	\end{itemize}
+
+Voyons maintenant les priorités des différentes actions quant au
+développement du logiciel (échelle : voir préambule).\\\\\\
+\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
+\hline
+  Fonction & Priorité & Qualité & Mesure \\
+\hline
+Consulter un devoir & 5 & Rapide & Permettre un chargement rapide du
+  devoir \\
+\hline
+Télécharger un devoir & 4 & Fiable & Assurer l'intégralité des données.\\
+\hline
+Lister les devoirs & 4 & Rapide et Complet & Permettre de lister
+  rapidement les devoirs de l'enseignement souhaité et assurer le
+  listing de tous les devoirs sans omission.\\
+\hline
+Rechercher un devoir & 3 & Facile et Rapide & Rendre facile la
+  recherche grâce aux mots clés. Efficace.\\
+\hline
+Créer un devoir & 5 & Rapide et Facile & Sélection d'exercices dans
+  une liste trouvé grâce aux mots clés ou aux liens par
+  l'utilisateur. Ajout simple.\\
+\hline
+Modifier un devoir & 4 & Rapide et Facile & Permettre un
+  ajout/suppression d'un exercice attaché au devoir très facilement et
+  rapidement (pour la recherche de l'exercice).\\
+\hline
+Supprimer un devoir & 3 & Fiable & Supprimer uniquement le devoir
+  sélectionné, pas d'incohérence. \\
+\hline
+\end{tabular}

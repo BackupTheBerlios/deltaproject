@@ -1,0 +1,63 @@
+	\section{Droit}
+
+\begin{center}
+\scalebox{0.7}{\includegraphics{images/droit.jpg}}\\
+\par{Paquetage Droit}
+\end{center}
+Voici les diff{\'e}rents sc{\'e}narios:\\
+	\begin{itemize}
+	\item Responsable
+		\begin{itemize}	
+		\item Rechercher les enseignants du groupe d'enseignement :
+			\begin{itemize}
+			\item Pr{\'e}-requis : {\^e}tre loger en tant que responsable.
+			\item Description : L'utilisateur clique sur le lien {\it Rechercher enseignant}.\\
+			Il donne aux choix avec ou sans crit{\`e}res qui donne une liste des enseignants qui appartiennent au groupe d'enseignement choisit.
+			\item Post-requis : La liste est affich{\'e}.
+			\end{itemize}
+		\end{itemize}	
+		\item Donner les droits sur un enseignement:
+			\begin{itemize}
+			\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e} comme responsable de l'enseignement qu'il va modifier.\\
+			Avoir list{\'e} avant tous les enseignemts qui veut mettre en responsable de l'enseignement. 
+			\item Description : Il ajoute a sont enseignemement des enseignent qui deviennent responsable eux aussi de cette enseignement.
+			\item Post-requis : Des droits ont {\'e}t{\'e}s donn{\'e}s {\`a} d'autre enseignements que le cr{\'e}ateur
+			\end{itemize}
+		\end{itemize}
+	\item Administrateur
+		\begin{itemize}
+		\item Modifier les droits :
+			\begin{itemize}
+			\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e}. 
+			\item Description : L'administrateur va modifier les droits des responsables.\\
+			Il peut retirer le droit a un responsable et le faire donc passer simple enseignent.\\
+			Il peut faire passer une enseignent en responsable.\\
+			\item Post-requis : Les modifications ont {\'e}t{\'e} effectu{\'e}es et sauvgard{\'e}es.
+			\end{itemize}
+		\end{itemize}
+	\end{itemize}
+\newpage
+Voyons maintenant les priorit{\'e}s des diff{\'e}rentes actions quant au
+d{\'e}veloppement du logiciel ({\'e}chelle : voir pr{\'e}ambule).\\\\\\
+\begin{tabular}{|p{4cm}|c|p{4cm}|p{5cm}|}
+\hline
+  Fonction & Priorit{\'e} & Qualit{\'e} & Mesure \\
+\hline
+Ajouter un compte &  5 & Fiabilit{\'e} & Coh{\'e}rence entre les logins et les mots de passe. \\
+\hline
+Modifier un compte & 3 & Fiabilit{\'e} & Coh{\'e}rence entre les logins et les
+  mots de passe. \\
+\hline
+Consulter un compte & 3 & S{\'e}curit{\'e} & \\
+\hline
+Supprimer un compte & 4 & S{\'e}curit{\'e}. Fiabilit{\'e} & Ne pas supprimer
+  d'autres comptes que celui s{\'e}lectionn{\'e}.\\
+\hline
+Se loger & 5 & S{\'e}curit{\'e}. Fiabilit{\'e} & Se connecter au compte entr{\'e}.\\
+\hline
+Se d{\'e}loger  & 5 & S{\'e}curit{\'e}. Fiabilit{\'e} &  D{\'e}connexion assur{\'e}e. Ne pas pouvoir d{\'e}loger en m{\^e}me temps d'autres personnes connect{\'e}es sur l'application.\\
+\hline
+Modifier param{\`e}tres compte  & 3 & s{\'e}curit{\'e},fiabilit{\'e} & Garantir une 
+  s{\'e}curit{\'e}. Le nouveau mot de passe ne peut pas {\^e}tre intercept{\'e}. Garantir la validit{\'e} du mot de passe  \\
+\hline
+\end{tabular}

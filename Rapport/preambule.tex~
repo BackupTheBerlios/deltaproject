@@ -1,0 +1,14 @@
+\section*{Préambule}
+
+Voici l'échelle que nous avons choisi pour le développement du
+logiciel.
+{\bf 1} signifie que la priorité est minimale et {\bf 5} représente
+les fonctionnalités vitales au bon fonctionnement de l'application.
+\begin{center}
+\scalebox{1}{\includegraphics{images/echelle.jpg}}
+\par Echelle\\
+\end{center}
+
+\par Voici les differents styles de police utilisés : \\
+{\it Italique}  : Menu contenu dans l'application.\\
+{\bf Gras} 	: Titres.\\
