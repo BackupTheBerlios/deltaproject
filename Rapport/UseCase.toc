@@ -12,11 +12,11 @@
 \contentsline {section}{\numberline {4.1}Relations entre les paquetages}{8}
 \contentsline {section}{\numberline {4.2}Gestion des comptes}{9}
 \contentsline {section}{\numberline {4.3}Gestion des droits}{13}
-\contentsline {section}{\numberline {4.4}Gestion des exercices}{15}
-\contentsline {section}{\numberline {4.5}Gestion des projets}{18}
-\contentsline {section}{\numberline {4.6}Gestion des TDs}{22}
-\contentsline {section}{\numberline {4.7}Gestion des sections}{26}
-\contentsline {section}{\numberline {4.8}Gestion des mati{\`e}res}{28}
-\contentsline {section}{\numberline {4.9}Gestion des enseignements}{30}
-\contentsline {chapter}{\numberline {5}Planning pr{\'e}visionnel}{33}
-\contentsline {chapter}{\numberline {6}Annexe}{34}
+\contentsline {section}{\numberline {4.4}Gestion des exercices}{16}
+\contentsline {section}{\numberline {4.5}Gestion des projets}{19}
+\contentsline {section}{\numberline {4.6}Gestion des TDs}{24}
+\contentsline {section}{\numberline {4.7}Gestion des sections}{28}
+\contentsline {section}{\numberline {4.8}Gestion des mati{\`e}res}{30}
+\contentsline {section}{\numberline {4.9}Gestion des enseignements}{32}
+\contentsline {chapter}{\numberline {5}Planning pr{\'e}visionnel}{35}
+\contentsline {chapter}{\numberline {6}Annexe}{36}

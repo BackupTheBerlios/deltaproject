@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  6 MAR 2003 18:36
+This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  7 MAR 2003 13:21
 **UseCase.tex
 (./UseCase.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
 LaTeX2e <2001/06/01>
@@ -309,12 +309,12 @@ File: images/Compte_administrateur.jpg Graphic file (type jpg)
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 []/cmr12/Ne pas sup-pri-mer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 77--79
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
 /cmr12/d'autres comptes que
  []
 
@@ -324,12 +324,12 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 66--81
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg>
+<use images/echelle.jpg> [11 <./images/Compte_administrateur.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 96--97
 
  []
 
-[11 <./images/Compte_administrateur.jpg>]
+
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -353,7 +353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--131
 \openout2 = `droit.aux'.
 
  (./droit.tex
-<images/Droits_Responsable.jpg, id=60, 433.62pt x 325.215pt>
+<images/Droits_Responsable.jpg, id=60, 471.7625pt x 287.0725pt>
 File: images/Droits_Responsable.jpg Graphic file (type jpg)
 
 <use images/Droits_Responsable.jpg>
@@ -372,18 +372,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 9--18
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 9--20
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 30--31
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
@@ -391,30 +391,34 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
 
  <./images/Droits_Responsable.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 46--47
+
+ []
+
 <images/Droits_Administrateur.jpg, id=65, 461.47406pt x 325.215pt>
 File: images/Droits_Administrateur.jpg Graphic file (type jpg)
 
 <use images/Droits_Administrateur.jpg>
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 47--56
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 57--66
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 69--70
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+[14 <./images/Droits_Administrateur.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-) [14 <./images/Droits_Administrateur.jpg>]
+) [15]
 \openout2 = `exercice.aux'.
 
  (./exercice.tex
-<images/Exercice_Enseignant.jpg, id=69, 607.51968pt x 399.74344pt>
+<images/Exercice_Enseignant.jpg, id=72, 607.51968pt x 399.74344pt>
 File: images/Exercice_Enseignant.jpg Graphic file (type jpg)
 
 <use images/Exercice_Enseignant.jpg>
@@ -448,7 +452,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 11--32
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [15
+<use images/echelle.jpg> [16
 
 
  <./images/Exercice_Enseignant.jpg>]
@@ -476,13 +480,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<images/Exercice_Administrateur.jpg, id=73, 599.23875pt x 238.8925pt>
+<images/Exercice_Administrateur.jpg, id=76, 599.23875pt x 238.8925pt>
 File: images/Exercice_Administrateur.jpg Graphic file (type jpg)
 
 <use images/Exercice_Administrateur.jpg>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
+ [17]
 Underfull \hbox (badness 3769) in paragraph at lines 97--99
 []/cmr12/L'archivage doit ^etre ef-
  []
@@ -508,11 +512,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 
  []
 
-) [17 <./images/Exercice_Administrateur.jpg>]
+) [18 <./images/Exercice_Administrateur.jpg>]
 \openout2 = `projet.aux'.
 
  (./projet.tex
-<images/Projet_Consultant.jpg, id=80, 556.32843pt x 382.42876pt>
+<images/Projet_Consultant.jpg, id=83, 556.32843pt x 382.42876pt>
 File: images/Projet_Consultant.jpg Graphic file (type jpg)
 
 <use images/Projet_Consultant.jpg>
@@ -526,7 +530,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--35
 
  []
 
-[18
+[19
 
 
  <./images/Projet_Consultant.jpg>]
@@ -539,16 +543,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 50--51
 
  []
 
-<images/Projet_Responsable.jpg, id=84, 543.53062pt x 332.74312pt>
-File: images/Projet_Responsable.jpg Graphic file (type jpg)
+<images/Projet_Enseignant.jpg, id=88, 684.5575pt x 499.8675pt>
+File: images/Projet_Enseignant.jpg Graphic file (type jpg)
 
-<use images/Projet_Responsable.jpg>
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 60--69
+<use images/Projet_Enseignant.jpg>
+Overfull \hbox (52.39565pt too wide) in paragraph at lines 57--57
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 60--71
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [19 <./images/Projet_Responsable.jpg>]
+<use images/echelle.jpg> [21 <./images/Projet_Enseignant.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 90--92
 
  []
@@ -558,7 +570,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
-<images/Projet_Administrateur.jpg, id=89, 558.085pt x 223.83624pt>
+<images/Projet_Administrateur.jpg, id=95, 558.085pt x 223.83624pt>
 File: images/Projet_Administrateur.jpg Graphic file (type jpg)
 
 <use images/Projet_Administrateur.jpg>
@@ -571,12 +583,8 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 111--120
 [][] 
  []
 
-
-Underfull \vbox (badness 3579) has occurred while \output is active []
-
- [20 <./images/Projet_Administrateur.jpg>]
 File: images/echelle.jpg Graphic file (type jpg)
- <use images/echelle.jpg>
+<use images/echelle.jpg> [22 <./images/Projet_Administrateur.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 135--136
 
  []
@@ -586,10 +594,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
-) [21]
+) [23]
 \openout2 = `TD.aux'.
 
- (./TD.tex <images/TD_Consultant.jpg, id=96, 453.19313pt x 353.06906pt>
+ (./TD.tex <images/TD_Consultant.jpg, id=102, 453.19313pt x 353.06906pt>
 File: images/TD_Consultant.jpg Graphic file (type jpg)
 
 <use images/TD_Consultant.jpg>
@@ -603,7 +611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[22
+[24
 
 
  <./images/TD_Consultant.jpg>]
@@ -616,66 +624,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-<images/TD_Responsable.jpg, id=100, 604.50844pt x 377.15906pt>
-File: images/TD_Responsable.jpg Graphic file (type jpg)
+<images/TD_Enseignant.jpg, id=106, 716.6775pt x 505.89pt>
+File: images/TD_Enseignant.jpg Graphic file (type jpg)
 
-<use images/TD_Responsable.jpg>
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 59--69
+<use images/TD_Enseignant.jpg>
+Overfull \hbox (74.8795pt too wide) in paragraph at lines 56--56
+ [] 
+ []
+
+
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 59--71
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--69
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--69
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--69
+Underfull \hbox (badness 10000) in paragraph at lines 59--71
 
  []
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [25 <./images/TD_Enseignant.jpg>]
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [23 <./images/TD_Responsable.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+ <use images/echelle.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 102--103
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-<images/TD_Administrateur.jpg, id=104, 559.08875pt x 240.9pt>
+<images/TD_Administrateur.jpg, id=111, 559.08875pt x 240.9pt>
 File: images/TD_Administrateur.jpg Graphic file (type jpg)
 
 <use images/TD_Administrateur.jpg>
-Underfull \hbox (badness 2951) in paragraph at lines 117--118
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26]
+Underfull \hbox (badness 2951) in paragraph at lines 118--119
 /cmr12/chier se-lec-tionn^^Se pour le
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 113--122
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 114--123
 [][] 
  []
 
-[24 <./images/TD_Administrateur.jpg>]
 File: images/echelle.jpg Graphic file (type jpg)
- <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+<use images/echelle.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 148--149
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
 
-) [25]
+) [27 <./images/TD_Administrateur.jpg>]
 \openout2 = `section.aux'.
 
  (./section.tex
@@ -683,7 +702,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/Section_Enseigant.jpg, id=112, 514.92375pt x 325.215pt>
+<images/Section_Enseigant.jpg, id=118, 514.92375pt x 325.215pt>
 File: images/Section_Enseigant.jpg Graphic file (type jpg)
 
 <use images/Section_Enseigant.jpg>
@@ -707,10 +726,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--42
 
  []
 
-<images/Section_Administrateur.jpg, id=113, 659.46375pt x 158.5925pt>
+<images/Section_Administrateur.jpg, id=119, 659.46375pt x 158.5925pt>
 File: images/Section_Administrateur.jpg Graphic file (type jpg)
 
-<use images/Section_Administrateur.jpg> [26
+<use images/Section_Administrateur.jpg> [28
 
 
  <./images/Section_Enseigant.jpg>]
@@ -719,7 +738,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 51--58
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg>) [27 <./images/Section_Administrateur.jpg>]
+<use images/echelle.jpg>) [29 <./images/Section_Administrateur.jpg>]
 \openout2 = `matiere.aux'.
 
 
@@ -728,7 +747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/Matiere_Enseigant.jpg, id=120, 508.90125pt x 325.215pt>
+<images/Matiere_Enseigant.jpg, id=126, 508.90125pt x 325.215pt>
 File: images/Matiere_Enseigant.jpg Graphic file (type jpg)
 
 <use images/Matiere_Enseigant.jpg>
@@ -752,10 +771,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
-<images/Matiere_Administrateur.jpg, id=121, 645.41125pt x 133.49875pt>
+<images/Matiere_Administrateur.jpg, id=127, 645.41125pt x 133.49875pt>
 File: images/Matiere_Administrateur.jpg Graphic file (type jpg)
 
-<use images/Matiere_Administrateur.jpg> [28
+<use images/Matiere_Administrateur.jpg> [30
 
 
  <./images/Matiere_Enseigant.jpg>]
@@ -769,7 +788,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 52--59
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg>) [29 <./images/Matiere_Administrateur.jpg>]
+<use images/echelle.jpg>) [31 <./images/Matiere_Administrateur.jpg>]
 \openout2 = `enseignement.aux'.
 
 
@@ -778,7 +797,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/Enseignement_Consultant.jpg, id=128, 522.95375pt x 242.9075pt>
+<images/Enseignement_Consultant.jpg, id=135, 522.95375pt x 242.9075pt>
 File: images/Enseignement_Consultant.jpg Graphic file (type jpg)
 
 <use images/Enseignement_Consultant.jpg>
@@ -788,7 +807,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 11--19
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-<images/Enseignement_Enseignant.jpg, id=129, 582.175pt x 150.5625pt>
+<images/Enseignement_Enseignant.jpg, id=136, 582.175pt x 150.5625pt>
 File: images/Enseignement_Enseignant.jpg Graphic file (type jpg)
 
 <use images/Enseignement_Enseignant.jpg>
@@ -806,13 +825,13 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 42--49
 [][] 
  []
 
-[30
+[32
 
 
  <./images/Enseignement_Consultant.jpg> <./images/Enseignement_Enseignant.jpg>]
 File: images/echelle.jpg Graphic file (type jpg)
  <use images/echelle.jpg>
-<images/Enseignement_Administrateur.jpg, id=133, 548.0475pt x 435.6275pt>
+<images/Enseignement_Administrateur.jpg, id=140, 548.0475pt x 435.6275pt>
 File: images/Enseignement_Administrateur.jpg Graphic file (type jpg)
 
 <use images/Enseignement_Administrateur.jpg>
@@ -848,7 +867,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 73--86
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [31 <./images/Enseignement_Administrateur.jpg>]
+ [33 <./images/Enseignement_Administrateur.jpg>]
 File: images/echelle.jpg Graphic file (type jpg)
  <use images/echelle.jpg>
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
@@ -871,7 +890,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-) [32]
+) [34]
 \openout2 = `gantt.aux'.
 
  (./gantt.tex
@@ -881,10 +900,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/gantt.jpg, id=141, 827.09pt x 790.955pt>
+<images/gantt.jpg, id=147, 827.09pt x 790.955pt>
 File: images/gantt.jpg Graphic file (type jpg)
  <use images/gantt.jpg>)
-[33
+[35
 
 
 
@@ -953,7 +972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-[34
+[36
 
 
 
@@ -1017,7 +1036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-) [35]
+) [37]
 \openout2 = `contact.aux'.
 
  (./contact.tex
@@ -1025,7 +1044,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-) [36
+) [38
 
 
 ] (./UseCase.aux (./introduction.aux) (./charte.aux) (./acteur.aux)
@@ -1034,14 +1053,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 (./gantt.aux) (./glossaire.aux) (./contact.aux)) ) 
 Here is how much of TeX's memory you used:
  1730 strings out of 10428
- 23020 string characters out of 65381
+ 23010 string characters out of 65381
  76567 words of memory out of 263001
  4601 multiletter control sequences out of 10000+0
  10749 words of font info for 41 fonts, out of 400000 for 1000
  14 hyphenation exceptions out of 1000
- 24i,9n,24p,312b,456s stack positions out of 300i,100n,500p,50000b,4000s
+ 24i,9n,24p,312b,543s stack positions out of 300i,100n,500p,50000b,4000s
 </usr/share/texmf/fonts/type1
 /bluesky/cm/cmti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsl12.pfb></us
 r/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bl
 uesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb>
-Output written on UseCase.pdf (36 pages, 803107 bytes).
+Output written on UseCase.pdf (38 pages, 827614 bytes).

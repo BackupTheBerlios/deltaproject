@@ -12,7 +12,9 @@
 \hline
 Rechercher les enseignants du groupe d'enseignement & 3 &  pr{\'e}cis & la recherche doit {\^e}tre pr{\'e}cis pour trouver l'{\'e}l{\'e}ment recherch{\'e} rapidement\\
 \hline
-Donner les droits sur un enseignement & 2 & sur & les droits doivent {\^e}tre donn{\'e}s sans erreurs\\
+Donner les droits sur un enseignement & 2 & sûr & les droits doivent {\^e}tre donn{\'e}s sans erreurs.\\
+\hline
+Retirer les droits sur un enseignement & 2 & sûr & Les droits sont retirés sans oubli.\\
 \hline
 \end{tabular}
 
@@ -33,9 +35,17 @@ Donner les droits sur un enseignement & 2 & sur & les droits doivent {\^e}tre do
 	\begin{itemize}
 	\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e} comme responsable de l'enseignement qu'il va modifier.\\
 	Avoir list{\'e} avant tous les enseignants qui veut mettre en responsable de l'enseignement. 
-	\item Description : Il ajoute à son enseignement des enseignant qui deviennent responsables eux aussi de cet enseignement.
+	\item Description : Il ajoute à son enseignement des enseignants qui auront ainsi le droit d'insérer de nouveaux projets et TDs dans son enseignement.
 	\item Post-requis : Des droits ont {\'e}t{\'e}s donn{\'e}s {\`a} d'autres enseignements que le cr{\'e}ateur.\\
 	\end{itemize}
+\item {\bf Supprimer les droits sur un enseignement:}
+	\begin{itemize}
+	\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e} comme responsable de l'enseignement qu'il va modifier.\\
+	Avoir list{\'e} avant tous les enseignants dont il veut retirer les droits dans son enseignement.
+	\item Description : Il retire de son enseignement des enseignants
+	\item Post-requis : Des droits ont {\'e}t{\'e}s retirer {\`a} d'autres enseignements que le cr{\'e}ateur.\\
+	\end{itemize}
+
 \end{itemize}
 
 \section*{Administrateur}
@@ -64,14 +74,14 @@ Supprimer les droits & 2 & fiable &\\
 \item {\bf Modifier les droits :}
 	\begin{itemize}
 	\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e}. 
-	\item Description : L'administrateur va modifier les droits des responsables.\\
+	\item Description : L'administrateur va modifier les droits des responsables et enseignants.\\
 	Il peut retirer le droit à un responsable et le faire donc passer simple enseignant et il peut faire passer un enseignant en responsable.
 	\item Post-requis : Les modifications ont {\'e}t{\'e} effectu{\'e}es et sauvegard{\'e}es.\\
 	\end{itemize}
 \item {\bf Supprimer les droits :}
 	\begin{itemize}
 	\item Pr{\'e}-requis : Etre identifi{\'e}/log{\'e}. 
-	\item Description : L'administrateur va supprimer les droits des responsables e il peut supprimer le droit à un responsable et le faire donc passer simple enseignant.
+	\item Description : L'administrateur va supprimer les droits des responsables et enseignants, il peut supprimer le droit à un responsable et le faire donc passer simple enseignant.
 	\item Post-requis : Les modifications ont {\'e}t{\'e} effectu{\'e}es et sauvegard{\'e}es.\\
 	\end{itemize}
 \end{itemize}
