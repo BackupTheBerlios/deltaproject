@@ -1,0 +1,15 @@
+#FIG 3.2
+Landscape
+Center
+Metric
+A4      
+100.00
+Single
+-2
+1200 2
+4 0 1 50 0 0 25 0.0000 4 330 2925 1980 4365 Repr\351sente les liens\001
+4 0 11 50 0 0 25 0.0000 4 330 7515 1980 3870 Repr\351sente les noms de variables (projets, TD, etc)\001
+4 0 12 50 0 0 25 0.0000 4 330 5745 1980 3285 Repr\351sente les textes de commentaires\001
+4 0 0 50 0 0 25 0.0000 4 330 8610 1980 2745 Repr\351sente les textes statiques contenus dans l'application\001
+4 0 0 50 0 0 30 0.0000 4 405 2055 1890 1710 Templates :\001
+4 0 4 50 0 0 25 0.0000 4 330 5055 2025 4905 Repr\351sente les messages d'erreurs\001
