@@ -1,0 +1,45 @@
+\section{Diagramme d'enseignement}
+
+\par On présente ici la gestion des enseignements. Elle regroupe
+également les paquetages de la section et de matière.\\
+
+\begin{itemize}
+\item TeachingManager : C'est l'objet qui gère les enseignements, il
+s'occupe de leur création, recherche, mise dans la corbeille,
+restauration  et suppression.\\
+
+\item TeachingData : Il s'occupe du stockage des enseignements dans
+leur intégralité. Le teachingManager lui fait appel pour toutes les
+opérations.\\
+
+\item TeachingTrash : C'est l'objet qui collecte tous les
+enseignements mis à la poubelle pour leur créateurs. Il les conserve
+jusqu'a leur suppression.\\
+
+\item SectionManager : Il gère l'ensemble des sections et intéragit
+avec le TeachingManager lors de la création ou de la recherche.\\
+
+\item UnitManager : Il s'occupe des matière et intéragit
+avec le TeachingManager lors de la création ou de la recherche.\\
+\end{itemize}
+
+\begin{center}
+\scalebox{0.6}{\includegraphics{images/creerEnseignement.jpg}}\\
+\par Voici le diagramme de séquence de création d'enseignement.\\
+
+\scalebox{0.6}{\includegraphics{images/rechercherEns.jpg}}\\
+\par Voici le diagramme de séquence de recherche d'enseignement.\\
+
+\scalebox{0.6}{\includegraphics{images/mettreEnsCorbeille.jpg}}\\
+\par Voici le diagramme de séquence de mise à la corbeille
+d'enseignement.\\
+
+\scalebox{0.6}{\includegraphics{images/supprimerEns.jpg}}\\
+\par Voici le diagramme de séquence de la suppression d'enseignement.\\
+
+
+\end{center}
+
+
+
+
