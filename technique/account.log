@@ -1,0 +1,20 @@
+This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  14 MAR 2003 18:16
+**account.tex
+(./account.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
+LaTeX2e <2001/06/01>
+Babel <v3.7h> and hyphenation patterns for american, french, german, ngerman, n
+ohyphenation, loaded.
+! Undefined control sequence.
+l.1 \section
+            {Le diagramme de classes}
+? x
+ 
+Here is how much of TeX's memory you used:
+ 5 strings out of 10428
+ 52 string characters out of 65381
+ 44508 words of memory out of 263001
+ 3102 multiletter control sequences out of 10000+0
+ 3640 words of font info for 14 fonts, out of 400000 for 1000
+ 14 hyphenation exceptions out of 1000
+ 5i,0n,1p,49b,7s stack positions out of 300i,100n,500p,50000b,4000s
+No pages of output.

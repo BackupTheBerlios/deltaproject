@@ -1,0 +1,41 @@
+\section{Le diagramme de classes}
+Pour la création du diagramme de classes, l'idée est de regrouper les
+différents paquetages qui s'utilisent de façon identique. Les
+paquetages compte et droit a été créé pour gérer les droits
+d'identification et d'accés des différents acteurs.
+Dans ce diagramme nous avons les objets:\\
+
+\begin{itemize}
+\item Account:
+C'est un objet qui identifie un utilisateur par son login et son mot
+de passe. C'est l'objet de base du paquetage compte. Seul
+l'administrateur a le droit de le modifier ou de le supprimer.\\
+
+\item AccountManager:
+C'est le gérant des comptes et c'est lui qui reçoit la requête d'un
+utilisateur qui veut se loger.
+Il utilise les paramètres du compte de l'utilisateur pour vérifier la
+validité de ces derniers avant de le connecter à l'application.
+Cette vérification se fait par délégation de la requête du
+consultant à l'objet AccountData.\\
+
+\item AccountData:
+C'est l'objet qui stocke les informations sur les comptes des utilisateurs.
+C'est lui qui vérifie la validité d'un compte.\\
+
+\item RigthManager:
+C'est un objet qui permet à l'administrateur ou au responsable de
+pouvoir rechercher ou modifier les droits à un enseignant.\\
+\end{itemize}
+
+
+\begin{center}
+\scalebox{0.4}{\includegraphics{images/compte.jpg}}\\
+\end{center}
+
+
+
+
+
+
+
