@@ -1,0 +1,10 @@
+\section{Diagramme d'enseignement}
+
+\begin{itemize}
+\item TeachingManager : 
+\item TeachingData
+\item SectionManager
+\item UnitManager
+\item TeachingTrash
+\item 
+\end{itemize}
