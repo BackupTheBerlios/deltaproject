@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  6 MAR 2003 13:17
+This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  6 MAR 2003 13:27
 **UseCase.tex
 (./UseCase.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
 LaTeX2e <2001/06/01>
@@ -283,39 +283,40 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [10
 
 
- <./images/identification.jpg>]
-Underfull \hbox (badness 5077) in paragraph at lines 72--73
+ <./images/identification.jpg>] <images/echelle.jpg, id=49, 177.66376pt x 38.14
+25pt>
+File: images/echelle.jpg Graphic file (type jpg)
+
+<use images/echelle.jpg>
+Underfull \hbox (badness 5077) in paragraph at lines 77--78
 /cmr12/de-mand^^See et la r^^Seponse
  []
 
 
-Underfull \hbox (badness 4072) in paragraph at lines 74--75
+Underfull \hbox (badness 4072) in paragraph at lines 79--80
 []/cmr12/Eviter toutes er-reurs de
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 []/cmr12/Ne pas sup-pri-mer
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--78
+Underfull \hbox (badness 10000) in paragraph at lines 81--83
 /cmr12/d'autres comptes que
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 63--80
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 68--85
 [][] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
+[11 <./images/echelle.jpg>]
 Underfull \vbox (badness 2326) has occurred while \output is active []
 
  [12]
-Underfull \hbox (badness 10000) in paragraph at lines 155--157
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
@@ -347,9 +348,8 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 11--20
 [][] 
  []
 
-<images/echelle.jpg, id=62, 177.66376pt x 38.1425pt>
 File: images/echelle.jpg Graphic file (type jpg)
- <use images/echelle.jpg>
+<use images/echelle.jpg>
 Overfull \hbox (48.04668pt too wide) in paragraph at lines 46--53
 [][] 
  []
@@ -363,7 +363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 64--67
 [14
 
 
- <./images/echelle.jpg>]) [15]
+]) [15]
 \openout2 = `exercice.aux'.
 
  (./exercice.tex
@@ -1009,7 +1009,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 Here is how much of TeX's memory you used:
  1684 strings out of 10428
  20945 string characters out of 65381
- 79069 words of memory out of 263001
+ 79070 words of memory out of 263001
  4560 multiletter control sequences out of 10000+0
  10749 words of font info for 41 fonts, out of 400000 for 1000
  14 hyphenation exceptions out of 1000
@@ -1018,4 +1018,4 @@ Here is how much of TeX's memory you used:
 ti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsl12.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17
 .pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb>
-Output written on UseCase.pdf (41 pages, 573306 bytes).
+Output written on UseCase.pdf (41 pages, 573435 bytes).
