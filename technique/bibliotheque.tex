@@ -1,10 +1,10 @@
-\chapter{Bibliothèques et logiciels utilisés}
-\section{Bibliothèques}
-Voici un tableau récapitulatif des différentes bibliothèques dont nous
+\chapter{Biblioth{\`e}ques et logiciels utilis{\'e}s}
+\section{Biblioth{\`e}ques}
+Voici un tableau r{\'e}capitulatif des diff{\'e}rentes biblioth{\`e}ques dont nous
 aurons besoin : \\\\
 \begin{tabular}{|l|l|l|}
 \hline
-{\bf Outil} & {\bf Bibliothèques} \\
+{\bf Outil} & {\bf Biblioth{\`e}ques} \\
 \hline
 Tomcat 4.1.18 & org.apache.catalina\\
 \hline
@@ -18,7 +18,7 @@ Midas & ...\\
 \hline
 XML/XSLT & javax.xml/org.apache.xalan.xslt\\
 \hline
-FOP & Déjà intégré à partir de la jdk 1.2\\
+FOP & D{\'e}j{\`a} int{\'e}gr{\'e} {\`a} partir de la jdk 1.2\\
 \hline
 SAX & org.xml.sax\\
 \hline
@@ -26,246 +26,258 @@ JDBC & java.sql\\
 \hline
 \end{tabular}
 \\\\
-Voici maintenant la spécification des différents outils, à commencer
+Voici maintenant la sp{\'e}cification des diff{\'e}rents outils, {\`a} commencer
 par TOMCAT.\\
 \section{Tomcat}
 \par TOMCAT est un conteneur de servlet.\\
-Le conteneur de servlet associe à une URL virtuelle une servlet.
-TOMCAT intégre les servlets et les JSP.
+Le conteneur de servlet associe {\`a} une URL virtuelle une servlet.
+TOMCAT int{\'e}gre les servlets et les JSP.
 Nous avons choisi d'utiliser TOMCAT car il respecte une norme concernant les technologies Java Servlet et JavaServer Pages.
-Voyons ce que représente une servlet.\\
+Voyons ce que repr{\'e}sente une servlet.\\
 \subsection{Servlet}
-\par Une servlet est un programme Java qui réside et s'exécute sur un serveur pour apporter des fonctionnalités ou traiter des données sur le serveur.\\ 
-Son exécution n'est pas visible du côté client, elle est
-transparente. En effet, les données sont traduites avant d'être
-envoyées vers le client. \\
+\par Une servlet est un programme Java qui r{\'e}side et s'ex{\'e}cute sur un serveur pour apporter des fonctionnalit{\'e}s ou traiter des donn{\'e}es sur le serveur.\\ 
+Son ex{\'e}cution n'est pas visible du c{\^o}t{\'e} client, elle est
+transparente. En effet, les donn{\'e}es sont traduites avant d'{\^e}tre
+envoy{\'e}es vers le client. \\
 Cela rend plus flexible notre travail, nous pouvons modifier des
 traitements sans le signaler au client.\\
-Le seul inconvénient des servlets est le temps nécessaire pour la
+Le seul inconv{\'e}nient des servlets est le temps n{\'e}cessaire pour la
 mise en forme des pages html.
 C'est pourquoi, nous nous proposons d'utiliser les JSP.
 
 \subsection{Java Server Pages (JSP)}
-Le JSP est une technologie pour controller le contenu ou l'apparence de pages web à travers les servlets (définie précédemment). Parfois, le JSP est représenté comme l'interface des programmes d'application servlets.
+Le JSP est une technologie pour controller le contenu ou l'apparence de pages web {\`a} travers les servlets (d{\'e}finie pr{\'e}c{\'e}demment). Parfois, le JSP est repr{\'e}sent{\'e} comme l'interface des programmes d'application servlets.
 Il permet d'entrelacer du code HTML avec du code Java.
-Malgré le fait que les JSP paraissent différentes des servlets, Java
+Malgr{\'e} le fait que les JSP paraissent diff{\'e}rentes des servlets, Java
 traduit les JSP en servlets. Ce qui signifie que les JSP sont en fait
-juste une représentation plus aisé des servlets, ce qui facilite la programmation.\\
+juste une repr{\'e}sentation plus ais{\'e} des servlets, ce qui facilite la programmation.\\
 
 Dans notre application, nous allons utiliser le JSP pour l'affichage en
 HTML et les servlets pour les traitements. Donc, nos programmes JSP
-vont faire appel à des servlets.\\
+vont faire appel {\`a} des servlets.\\
 
 En ce qui concerne les tests, nous nous proposons d'utiliser le JUnit.\\
 
 \section{JUnit}
-Le JUnit est une structure permettant de faire du code sûr, fiable,
+Le JUnit est une structure permettant de faire du code s{\^u}r, fiable,
 qui marchera dans toutes les situations et surtout dans le temps.\\
 
-Les inconvénients sont qu'au départ, le code sera un peu long. En
+Les inconv{\'e}nients sont qu'au d{\'e}part, le code sera un peu long. En
 effet, en plus du code pour l'application, il faudra rajouter du code
 pour tester le code de l'application.\\
 
 Les avantages sont mutliples.
-Le JUnit est un façon de regrouper les expressions tels que {\it
+Le JUnit est un fa{\c c}on de regrouper les expressions tels que {\it
 print}, les debuggers et les scripts de tests en des objets permettant
 de garantir le code. Le fait que les tests soient des objets garantit
-une lisibilité du code. En effet, cela évite l'utilisation d'écriture
+une lisibilit{\'e} du code. En effet, cela {\'e}vite l'utilisation d'{\'e}criture
 sur la sortie standard avec l'appel de {\it print}.\\
-Cela va permettre à nos développeurs d'éviter de faire trop d' efforts supplémentaires quant aux erreurs.
-JUnit permet également à des personnes extérieures qui n'ont pas codé
-les sources d'interprété les réultats générés.\\
-JUnit distingue les échecs des erreurs. En effet, un échec peut être anticipé alors qu'une erreur ne peut pas.\\
+Cela va permettre {\`a} nos d{\'e}veloppeurs d'{\'e}viter de faire trop d' efforts suppl{\'e}mentaires quant aux erreurs.
+JUnit permet {\'e}galement {\`a} des personnes ext{\'e}rieures qui n'ont pas cod{\'e}
+les sources d'interpr{\'e}t{\'e} les r{\'e}ultats g{\'e}n{\'e}r{\'e}s.\\
+JUnit distingue les {\'e}checs des erreurs. En effet, un {\'e}chec peut {\^e}tre anticip{\'e} alors qu'une erreur ne peut pas.\\
 
 En ce qui concerne la compilation, nous nous proposons d'utiliser un
 makefile Java : {\bf Antidote}.\\
 
 \section{Antidote (Ant)}
-ANT est au monde Java ce que MAKE est au monde du C. ANT va bien au delà d'un simple apport technique. ANT exige une réelle démarche méthodologique autour de l'organisation des fichiers et de leur devenir dans les différents processus de livraison (avec des problémes tels que la séparation sources-livrables ou la gestion multi-environnements/multi-OS). Il possède tous les atouts propres aux standards : simple, bâti sur des technologies ouvertes (Java et XML), extensible, et supporté par des acteurs stratégiques. 
+ANT est au monde Java ce que MAKE est au monde du C. ANT va bien au del{\`a} d'un simple apport technique. ANT exige une r{\'e}elle d{\'e}marche m{\'e}thodologique autour de l'organisation des fichiers et de leur devenir dans les diff{\'e}rents processus de livraison (avec des probl{\'e}mes tels que la s{\'e}paration sources-livrables ou la gestion multi-environnements/multi-OS). Il poss{\`e}de tous les atouts propres aux standards : simple, b{\^a}ti sur des technologies ouvertes (Java et XML), extensible, et support{\'e} par des acteurs strat{\'e}giques. 
 
 {\bf Pourquoi ANT ?}\\
-Selon les domaines d'application, il existe différents moyens
+Selon les domaines d'application, il existe diff{\'e}rents moyens
 d'automatiser des traitements batchs : fichiers batchs, outil MAKE,
 programmes d'ordonnancements, installateurs voire des programmes
-développés spécifiquement.
-ANT est efficace dans le sens où il peut prendre en charge de
-nombreuses problématiques mais s'il est performant dans certains
+d{\'e}velopp{\'e}s sp{\'e}cifiquement.
+ANT est efficace dans le sens o{\`u} il peut prendre en charge de
+nombreuses probl{\'e}matiques mais s'il est performant dans certains
 domaines (eg. : construction d'application), d'autres produits
-présentent une meilleurs qualité de service dans d'autres domaines
+pr{\'e}sentent une meilleurs qualit{\'e} de service dans d'autres domaines
 (eg. : installation de logiciels).
-{\bf L'inconvénient} est l'absence d'interface graphique constitue néanmoins un frein important pour bon nombre d'utilisateurs. ANT n'en propose pas plus pour l'administration que pour le suivi de l'exécution. Cependant, la plupart des IDE Java disposent de plugins dédiés à l'utilisation de ANT, avec leur propre interface graphique : JBuilder, Eclipse/WSAD, NetBeans/Forte, Intellij IDEA, ...
+{\bf L'inconv{\'e}nient} est l'absence d'interface graphique constitue n{\'e}anmoins un frein important pour bon nombre d'utilisateurs. ANT n'en propose pas plus pour l'administration que pour le suivi de l'ex{\'e}cution. Cependant, la plupart des IDE Java disposent de plugins d{\'e}di{\'e}s {\`a} l'utilisation de ANT, avec leur propre interface graphique : JBuilder, Eclipse/WSAD, NetBeans/Forte, Intellij IDEA, ...
 
 
 
 {\bf Les avantages} sont mutliples.
 \begin{itemize}
-\item Il est {\bf portable} : implémenté en Java et configurable via
-XML, ANT fonctionne de la même façon sous n'importe quel OS supportant
-Java et il permet également d'effectuer des traitements spécifiques selon l'OS.
-\item Il est {\bf extensible} : ANT est conçu de telle manière que l'intégration de nouvelles tâches (interfaçage avec un produit, opération utilitaire, ...) soit un jeu d'enfants.
-\item Il est {\bf simple} : La configuration XML est simple, tout comme les concepts de base. Il est parfois plus facile d'utiliser certains outils via ANT (eg. : javadoc ou javac) du fait de l'homogénéité des tâches ANT qui les interfacent, que ce soit au niveau de leur syntaxe ou de leur documentation.
-\item Il est {\bf configurable via XML} : il permet à la fois de s'affranchir de l'apprentissage d'un nouveau format propriétaire et de bénéficier des nombreux moyens de traitement disponibles autour d'XML.
-\item Il est {\bf OpenSource} : Contrairement à
-d'autres projets OpenSource, ANT n'induit aucun coût caché (assistance
-technique, documentation payante, ...).\\ La licence Apache protégeant ANT est très permissive, elle permet notamment de commercialiser un produit bâti sur ANT.\\
+\item Il est {\bf portable} : impl{\'e}ment{\'e} en Java et configurable via
+XML, ANT fonctionne de la m{\^e}me fa{\c c}on sous n'importe quel OS supportant
+Java et il permet {\'e}galement d'effectuer des traitements sp{\'e}cifiques selon l'OS.
+\item Il est {\bf extensible} : ANT est con{\c c}u de telle mani{\`e}re que l'int{\'e}gration de nouvelles t{\^a}ches (interfa{\c c}age avec un produit, op{\'e}ration utilitaire, ...) soit un jeu d'enfants.
+\item Il est {\bf simple} : La configuration XML est simple, tout comme les concepts de base. Il est parfois plus facile d'utiliser certains outils via ANT (eg. : javadoc ou javac) du fait de l'homog{\'e}n{\'e}it{\'e} des t{\^a}ches ANT qui les interfacent, que ce soit au niveau de leur syntaxe ou de leur documentation.
+\item Il est {\bf configurable via XML} : il permet {\`a} la fois de s'affranchir de l'apprentissage d'un nouveau format propri{\'e}taire et de b{\'e}n{\'e}ficier des nombreux moyens de traitement disponibles autour d'XML.
+\item Il est {\bf OpenSource} : Contrairement {\`a}
+d'autres projets OpenSource, ANT n'induit aucun co{\^u}t cach{\'e} (assistance
+technique, documentation payante, ...).\\ La licence Apache prot{\'e}geant ANT est tr{\`e}s permissive, elle permet notamment de commercialiser un produit b{\^a}ti sur ANT.\\
 \end{itemize}
 
-Concernant le développement, nous allons développer selon le concept
-{\it Modèle-Vue-Controleur}.\\
+Concernant le d{\'e}veloppement, nous allons d{\'e}velopper selon le concept
+{\it Mod{\`e}le-Vue-Controleur}.\\
 \section{Strusts}
-Stuts va nous permettre de développer un {\it modèle-vue-controleur} de manière facile.
+Stuts va nous permettre de d{\'e}velopper un {\it mod{\`e}le-vue-controleur} de mani{\`e}re facile.
 
 {\bf Qu'est ce que c'est ?}
 
-Struts est un cadre de travail (framework) open source développé pour encourager une architecture applicative basée sur le modèle conceptuel Model-View-Controller (MVC), très utile dans la construction d'applications Web reposant sur la technologie des Servlets Java et des Pages Serveur Java (Java Server Pages - JSP). Il est compatible avec la plate-forme J2EE de Sun et principalement basé sur la technologie des servlets et du JSP. Le package Struts, même s'il n'en est qu'à sa révision 1.0, comporte une documentation complète. Vous y trouverez un guide utilisateur tout comme des guides pour développeurs. \\\\
-Le framework en tant que tel peut être divisé en quatre parties
+Struts est un cadre de travail (framework) open source d{\'e}velopp{\'e} pour encourager une architecture applicative bas{\'e}e sur le mod{\`e}le conceptuel Model-View-Controller (MVC), tr{\`e}s utile dans la construction d'applications Web reposant sur la technologie des Servlets Java et des Pages Serveur Java (Java Server Pages - JSP). Il est compatible avec la plate-forme J2EE de Sun et principalement bas{\'e} sur la technologie des servlets et du JSP. Le package Struts, m{\^e}me s'il n'en est qu'{\`a} sa r{\'e}vision 1.0, comporte une documentation compl{\`e}te. Vous y trouverez un guide utilisateur tout comme des guides pour d{\'e}veloppeurs. \\\\
+Le framework en tant que tel peut {\^e}tre divis{\'e} en quatre parties
 principales, trois d'entre eux correspondant merveilleusement au
-modèle MVC :
+mod{\`e}le MVC :
 \begin{itemize}
-    \item Le modèle, qui est un classe Action (dont nous parlerons dans une minute), subvient à la logique business écrite par le développeur. La distribution effectuée par le contrôleur à la classe Action est basée sur une configuration qui est prodiguée par le fichier struts-config.xml.
-    \item La vue, qui est un ensemble de librairies JSP de balises personnalisées, travaille en concert avec la servlet du contrôleur et cela permet la création rapide de formulaires pour une application.
-    \item Le contrôleur,qui est une servlet, distribue les requêtes reçues à la classe Action appropriée.
-    \item Un nombre de classes utilitaires supportent l'analyse XML, l'enrichissement automatique des propriétés des JavaBean et l'internationnalisation des messages affichés.\\
+    \item Le mod{\`e}le, qui est un classe Action (dont nous parlerons dans une minute), subvient {\`a} la logique business {\'e}crite par le d{\'e}veloppeur. La distribution effectu{\'e}e par le contr{\^o}leur {\`a} la classe Action est bas{\'e}e sur une configuration qui est prodigu{\'e}e par le fichier struts-config.xml.
+    \item La vue, qui est un ensemble de librairies JSP de balises personnalis{\'e}es, travaille en concert avec la servlet du contr{\^o}leur et cela permet la cr{\'e}ation rapide de formulaires pour une application.
+    \item Le contr{\^o}leur,qui est une servlet, distribue les requ{\^e}tes re{\c c}ues {\`a} la classe Action appropri{\'e}e.
+    \item Un nombre de classes utilitaires supportent l'analyse XML, l'enrichissement automatique des propri{\'e}t{\'e}s des JavaBean et l'internationnalisation des messages affich{\'e}s.\\
 \end{itemize}
 
-Le contrôleur est vraiment l'agent de la circulation du framework et c'est lui qui détermine à quel moment les choses arrivent. La servlet contrôleur est responsable du packaging et du routage des requêtes HTTP vers l'objet approprié du framework. Ce rôle est pris en charge soit par une page JSP, soit par une classe Action.
-Le modèle est un objet qui prend la requête d'un utilisateur et stocke les résultats pour toute la durée du process.
-L'objet vue est souvent une page JSP. Le framework Struts ne fournit pas actuellement de JSP mais il fournit par contre de nombreuses librairies de balises qui permettent une intégration aisée de JSP dans le framework. L'interaction de Struts avec JSP permet le stockage de données d'un formulaire de saisie dans un bean formulaire.\\
+Le contr{\^o}leur est vraiment l'agent de la circulation du framework et c'est lui qui d{\'e}termine {\`a} quel moment les choses arrivent. La servlet contr{\^o}leur est responsable du packaging et du routage des requ{\^e}tes HTTP vers l'objet appropri{\'e} du framework. Ce r{\^o}le est pris en charge soit par une page JSP, soit par une classe Action.
+Le mod{\`e}le est un objet qui prend la requ{\^e}te d'un utilisateur et stocke les r{\'e}sultats pour toute la dur{\'e}e du process.
+L'objet vue est souvent une page JSP. Le framework Struts ne fournit pas actuellement de JSP mais il fournit par contre de nombreuses librairies de balises qui permettent une int{\'e}gration ais{\'e}e de JSP dans le framework. L'interaction de Struts avec JSP permet le stockage de donn{\'e}es d'un formulaire de saisie dans un bean formulaire.\\
  
 {\bf Les avantages} sont :
 \begin{itemize}
-\item il est extrêmement stable.
-\item économie de temps pour coder un Modèle-Vue-Controleur complet\\
+\item il est extr{\^e}mement stable.
+\item {\'e}conomie de temps pour coder un Mod{\`e}le-Vue-Controleur complet\\
 \end{itemize}
 
-{\bf Les désavantages} sont :
+{\bf Les d{\'e}savantages} sont :
 \begin{itemize}
-\item compte tenu que c'est un projet à grande échelle, il y a beaucoup d'écrans et de types de requêtes différents. De ce fait, il y a beaucoup de classes Action puisque nous en avons besoin d'une seule par type de requêtes.
+\item compte tenu que c'est un projet {\`a} grande {\'e}chelle, il y a beaucoup d'{\'e}crans et de types de requ{\^e}tes diff{\'e}rents. De ce fait, il y a beaucoup de classes Action puisque nous en avons besoin d'une seule par type de requ{\^e}tes.
 \item Besoin d'apprentissage de cet outils.
-\item Necessite une bonne connaissance du modèle-vue-controlleur.\\
+\item Necessite une bonne connaissance du mod{\`e}le-vue-controlleur.\\
 \end{itemize}
 
 Concernant la saisi en mode texte, nous proposons d'utiliser un
-éditeur {\it de bord} : Mozilla Midas.\\
+{\'e}diteur {\it de bord} : Mozilla Midas.\\
 
 \section{Mozilla Midas}
-Midas va nous permettre d'éditer des documents en ligne à partir du navigateur web de l'utilisateur.
+Midas va nous permettre d'{\'e}diter des documents en ligne {\`a} partir du navigateur web de l'utilisateur.
 
-C'est un éditeur de fichier texte implanté de base dans le navigateur mozilla.
+C'est un {\'e}diteur de fichier texte implant{\'e} de base dans le navigateur mozilla.
 
 {\bf Les avantages} sont :
 \begin{itemize}
 \item il est fourni de base dans mozilla.
-\item il possède une large collection de méthodes.
+\item il poss{\`e}de une large collection de m{\'e}thodes.
 \item il est simple d'emploi.\\
 \end{itemize}
 
 Nous avons besoin de des feuilles de style XSLT pour respecter les
-fonctionnalités du projet.\\
+fonctionnalit{\'e}s du projet.\\
 
 \section{XML et XSLT}
 
-\par Le {\bf XML} sera utilisé comme une base de donnée pour les exercices, 
-les projets, les TD, et toutes les données qui nécéssiteront d'être stockées.
-Les exercices seront également formatté avec un balisage XML pour permettre
+\par Le {\bf XML} sera utilis{\'e} comme une base de donn{\'e}e pour les exercices, 
+les projets, les TD, et toutes les donn{\'e}es qui n{\'e}c{\'e}ssiteront d'{\^e}tre stock{\'e}es.
+Les exercices seront {\'e}galement formatt{\'e} avec un balisage XML pour permettre
 l'application de feuille de style. Elles permettront de mettre en forme le 
-rendu final des exercices à destination de l'utilisateur.
+rendu final des exercices {\`a} destination de l'utilisateur.
 
-{\bf Interêt pour le projet}
+{\bf Inter{\^e}t pour le projet}
 
 XML (Extensible Markup Language, ou Langage Extensible de Balisage) 
-est le langage destiné à succéder à HTML sur le World Wide Web. 
+est le langage destin{\'e} {\`a} succ{\'e}der {\`a} HTML sur le World Wide Web. 
 Comme HTML (Hypertext Markup Language) c'est un langage de balisage (markup), 
-c'est-à-dire un langage qui présente de l'information encadrée par des balises. 
-Mais contrairement à HTML, qui présente un jeu limité de balises orientées présentation 
+c'est-{\`a}-dire un langage qui pr{\'e}sente de l'information encadr{\'e}e par des balises. 
+Mais contrairement {\`a} HTML, qui pr{\'e}sente un jeu limit{\'e} de balises orient{\'e}es pr{\'e}sentation 
 (titre, paragraphe, image, lien hypertexte, etc.), 
-XML est un métalangage, qui va permettre d'inventer à volonté de nouvelles balises 
-pour isoler toutes les informations élémentaires (titre d'ouvrage, prix d'article, 
-numéro de sécurité sociale, référence de pièce?), ou agrégats d'informations élémentaires, 
+XML est un m{\'e}talangage, qui va permettre d'inventer {\`a} volont{\'e} de nouvelles balises 
+pour isoler toutes les informations {\'e}l{\'e}mentaires (titre d'ouvrage, prix d'article, 
+num{\'e}ro de s{\'e}curit{\'e} sociale, r{\'e}f{\'e}rence de pi{\`e}ce?), ou agr{\'e}gats d'informations {\'e}l{\'e}mentaires, 
 que peut contenir une page Web. \\
 
 {\bf Inconvenients :} Le stockage sous format XML est dans la pratique
 moins rapide qu'une base de donnee standard.Une bonne structuration
-des fichiers constituant alors notre base est nécéssaire pour
+des fichiers constituant alors notre base est n{\'e}c{\'e}ssaire pour
 faciliter la recherche et ne pas la rendre trop lente.\\
 
 {\bf Avantages :} L'application de feuille de style est possible avec XML. 
-Elle nous permettra de générer les TDs dans un grand nombre de format.\\
+Elle nous permettra de g{\'e}n{\'e}rer les TDs dans un grand nombre de format.\\
 
 \par Le {\bf XSLT} (eXtensible Stylesheet Language Transformation) permet de
-transformer des documents XML à l'aide de feuille de style contenant
-les règles appelées {\it template rules}.\\
-Le processeur XSLT crée une structure logique arborescente pour
-produire un arbre résultat représentant la structure d'un document
-HTML. La méthode directe consiste à lier le document XML ç la feuille
-de style XSL par l'intermédaire d'une {\it processing instruction}.\\
+transformer des documents XML {\`a} l'aide de feuille de style contenant
+les r{\`e}gles appel{\'e}es {\it template rules}.\\
+Le processeur XSLT cr{\'e}e une structure logique arborescente pour
+produire un arbre r{\'e}sultat repr{\'e}sentant la structure d'un document
+HTML. La m{\'e}thode directe consiste {\`a} lier le document XML {\c c} la feuille
+de style XSL par l'interm{\'e}daire d'une {\it processing instruction}.\\
 
 Pour parvenir a nos fins, nous avons besoin des feuilles de styles
 telle que XSL/FO.\\
 
 \section{FOP}
 
-{\bf Interêt pour le projet:}
-Le projet FOP est intégré au projet XML Apache.c'est un processeur XSL (à ne pas confondre avec XSLT) 
-acceptant en entrée un fichier XML comportant des {\it Formatting Objects} pour produire en sortie un document au format PDF. 
-Cet outil est idéal pour des applications nécessitant des besoins en impression limités en volume 
-et en complexité : factures, contrats, bons de commandes...
+{\bf Inter{\^e}t pour le projet:}
+Le projet FOP est int{\'e}gr{\'e} au projet XML Apache.c'est un processeur XSL ({\`a} ne pas confondre avec XSLT) 
+acceptant en entr{\'e}e un fichier XML comportant des {\it Formatting Objects} pour produire en sortie un document au format PDF. 
+Cet outil est id{\'e}al pour des applications n{\'e}cessitant des besoins en impression limit{\'e}s en volume 
+et en complexit{\'e} : factures, contrats, bons de commandes...
 Le langage XSL/FO permet de formatter l'affichage ou l'impression d'un
-document XML (il s'agit de l'équivalent des style-sheet CSS)
+document XML (il s'agit de l'{\'e}quivalent des style-sheet CSS)
 
 Avec FOP, on dispose d'un jeu de librairie qui vont nous permettre d'appliquer des feuilles de rendu sur des fichiers XML.
-Ces APIs vont nous servir à générer nos TDs au format PDF.\\
+Ces APIs vont nous servir {\`a} g{\'e}n{\'e}rer nos TDs au format PDF.\\
 
-{\bf Inconvénients :} L'inconvénient général est que toute les
-fonctionnalités ne sont pas toujours présentes ou finies. Le langage
-XSL/FO n'est pas standardisé.\\
+{\bf Inconv{\'e}nients :} L'inconv{\'e}nient g{\'e}n{\'e}ral est que toute les
+fonctionnalit{\'e}s ne sont pas toujours pr{\'e}sentes ou finies. Le langage
+XSL/FO n'est pas standardis{\'e}.\\
 
-{\bf Avantages :} Il à l'avantage d'être gratuit et efficace. Il permet
+{\bf Avantages :} Il {\`a} l'avantage d'{\^e}tre gratuit et efficace. Il permet
 de faire une conversion en fichiers affichables sur quelque support
 que ce soit (par exemple du format XML vers le format PDF). Il permet une bonne
-qualité d'impression autant sur le navigateur que sur l'imprimante.\\
+qualit{\'e} d'impression autant sur le navigateur que sur l'imprimante.\\
 
 
 \section{Les parseurs}
-Nous utilisons des fichiers au format XML pour le stockage des données.\\
+Nous utilisons des fichiers au format XML pour le stockage des donn{\'e}es.\\
 
-Lors de la parcours des fichiers XML nous avons besoin d'une interface d'analyseur qui permet de parcourir les fichiers et de trouver les éléments recherchés rapidement.
+Lors de la parcours des fichiers XML nous avons besoin d'une interface d'analyseur qui permet de parcourir les fichiers et de trouver les {\'e}l{\'e}ments recherch{\'e}s rapidement.
 
-Les parseurs sont des logiciels qui permettent de lire des documents XML. Cette lecture peut être faite avec un contrôle du document par rapport à son schéma ou à sa DTD. Dans ce cas, le parseur est dit " validant ".
+Les parseurs sont des logiciels qui permettent de lire des documents XML. Cette lecture peut {\^e}tre faite avec un contr{\^o}le du document par rapport {\`a} son sch{\'e}ma ou {\`a} sa DTD. Dans ce cas, le parseur est dit " validant ".
 
-Deux types d'interfaces sont définis entre un parseur et l'application qui l'utilise :
+Deux types d'interfaces sont d{\'e}finis entre un parseur et l'application qui l'utilise :
 \begin{itemize}
-\item l'interface SAX (Simple Access to XML) qui enchaîne un ensemble de rétro appels vers l'application au fur et à mesure que les objets XML sont traités (balise de début, attribut, texte, balise de fin, ?) ;
-\item l'interface DOM (Document Object Model) qui construit une hiérarchie d'objets représentant le document en mémoire (document, éléments, attributs, contenus...).\\
+\item l'interface SAX (Simple Access to XML) qui encha{\^\i}ne un ensemble de r{\'e}tro appels vers l'application au fur et {\`a} mesure que les objets XML sont trait{\'e}s (balise de d{\'e}but, attribut, texte, balise de fin, ?) ;
+\item l'interface DOM (Document Object Model) qui construit une hi{\'e}rarchie d'objets repr{\'e}sentant le document en m{\'e}moire (document, {\'e}l{\'e}ments, attributs, contenus...).\\
 \end{itemize}
-Le traitement SAX est intégralement réalisé en un seul passage. Par
-conséquent, SAX est généralement plus performant que DOM pour
-l'analyse de documents d'une taille équivalente, puisque ce dernier
+Le traitement SAX est int{\'e}gralement r{\'e}alis{\'e} en un seul passage. Par
+cons{\'e}quent, SAX est g{\'e}n{\'e}ralement plus performant que DOM pour
+l'analyse de documents d'une taille {\'e}quivalente, puisque ce dernier
 doit passer en revue plusieurs fois l'arborescence. De plus, comme une
-partie seulement d'un document XML doit se trouver en mémoire à un
-instant donné, SAX est généralement plus efficace que DOM en termes
-d'utilisation de la mémoire avec des documents volumineux : Ce
-problème est spécifique des structures arborescentes du DOM : les
-grands arbres exigent plus de mémoire et DOM doit charger la totalité
-du document en mémoire avant que l'analyse puisse être lancée..\\
-Côté {\bf inconvénients}, les applications SAX présentent souvent des
-instructions {\it if/else} longues et complexes pour déterminer quelle
-action entreprendre lorsqu'un élément particulier est traité. De même,
-le traitement de structures de données réparties entre plusieurs
-éléments XML s'avère difficile avec SAX puisque des données
-intermédiaires doivent être stockées entre les événements
-d'analyse. Enfin, la structure de gestion des événements d'une
-application SAX implique généralement que les applications SAX doivent
-être personnalisées pour une structure de document spécifique, alors
-que les applications DOM peuvent rester beaucoup plus générales.\\
+partie seulement d'un document XML doit se trouver en m{\'e}moire {\`a} un
+instant donn{\'e}, SAX est g{\'e}n{\'e}ralement plus efficace que DOM en termes
+d'utilisation de la m{\'e}moire avec des documents volumineux : Ce
+probl{\`e}me est sp{\'e}cifique des structures arborescentes du DOM : les
+grands arbres exigent plus de m{\'e}moire et DOM doit charger la totalit{\'e}
+du document en m{\'e}moire avant que l'analyse puisse {\^e}tre lanc{\'e}e..\\
+C{\^o}t{\'e} {\bf inconv{\'e}nients}, les applications SAX pr{\'e}sentent souvent des
+instructions {\it if/else} longues et complexes pour d{\'e}terminer quelle
+action entreprendre lorsqu'un {\'e}l{\'e}ment particulier est trait{\'e}. De m{\^e}me,
+le traitement de structures de donn{\'e}es r{\'e}parties entre plusieurs
+{\'e}l{\'e}ments XML s'av{\`e}re difficile avec SAX puisque des donn{\'e}es
+interm{\'e}diaires doivent {\^e}tre stock{\'e}es entre les {\'e}v{\'e}nements
+d'analyse. Enfin, la structure de gestion des {\'e}v{\'e}nements d'une
+application SAX implique g{\'e}n{\'e}ralement que les applications SAX doivent
+{\^e}tre personnalis{\'e}es pour une structure de document sp{\'e}cifique, alors
+que les applications DOM peuvent rester beaucoup plus g{\'e}n{\'e}rales.\\
 
-Ceci explique pourquoi nous avons décidé d'utiliser le parseur SAX.
+Ceci explique pourquoi nous avons d{\'e}cid{\'e} d'utiliser le parseur SAX.
 
 
 
 
 \section{Java DataBase Connection (JDBC)}
 En ce qui concerne l'identification des utilisateurs, nous avons
-besoin d'une connection permettant de manipuler les bases de données du client.\\ 
-JDBC a été conçu pour garder simples, les choses simples. Cela veut dire que l'API JDBC fait des tâches quotidiennes sur les bases de données (comme les requêtes SELECT...) quelque chose de très facile. Il permet de faire la relation entre un programme et une base.
+besoin d'une connection permettant de manipuler les bases de donn{\'e}es du client.\\ 
+JDBC a {\'e}t{\'e} con{\c c}u pour garder simples, les choses simples. Cela veut dire que l'API JDBC fait des t{\^a}ches quotidiennes sur les bases de donn{\'e}es (comme les requ{\^e}tes SELECT...) quelque chose de tr{\`e}s facile. Il permet de faire la relation entre un programme et une base.\\
+
+Pour la facilit{\'e} de programmation nous allons utiliser CVS.\\
+
+\section{Concurrent Versions System (CVS)}
+
+CVS est un outil de maintien et de suivi de versions pour travailler {\`a} plusieurs sur un projet informatique.
+Il introduit la notion de groupe de travail et  permet de g{\'e}rer l'arborescence de fichiers d'un projet donn{\'e}.
+Il permet de travailler en local sur l'arbre du projet, puis de notifier les modifications sur l'arbre commun. Il g{\`e}re l'historique des versions. Il g{\`e}re dans une certaine mesure les conflits de versions dus {\`a} des modifications concurrentes.\\
+
+C'est pour cela que nous allons nous servir de cet outils, pour simplifier la programmation.\\
+Nous avons trouv{\'e} un serveur sur internet (berlios.de) qui nous fournit un serveur CVS, un forum, un logiciel de gestion des bugs, un espace site web.\\
+
 
