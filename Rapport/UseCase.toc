@@ -15,10 +15,10 @@
 \contentsline {section}{\numberline {4.4}Gestion des exercices}{16}
 \contentsline {section}{\numberline {4.5}Gestion des FAQ}{19}
 \contentsline {section}{\numberline {4.6}Gestion des corrections}{21}
-\contentsline {section}{\numberline {4.7}Projet}{23}
-\contentsline {section}{\numberline {4.8}Gestion des TDs}{26}
-\contentsline {section}{\numberline {4.9}Gestion des sections}{30}
-\contentsline {section}{\numberline {4.10}Gestion des mati{\`e}res}{32}
-\contentsline {section}{\numberline {4.11}Gestion des enseignements}{34}
-\contentsline {chapter}{\numberline {5}Planning pr{\'e}visionnel}{37}
-\contentsline {chapter}{\numberline {6}Annexe}{39}
+\contentsline {section}{\numberline {4.7}Projet}{22}
+\contentsline {section}{\numberline {4.8}Gestion des TDs}{25}
+\contentsline {section}{\numberline {4.9}Gestion des sections}{28}
+\contentsline {section}{\numberline {4.10}Gestion des mati{\`e}res}{30}
+\contentsline {section}{\numberline {4.11}Gestion des enseignements}{32}
+\contentsline {chapter}{\numberline {5}Planning pr{\'e}visionnel}{35}
+\contentsline {chapter}{\numberline {6}Annexe}{36}

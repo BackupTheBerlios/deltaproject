@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  6 MAR 2003 13:27
+This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  6 MAR 2003 15:22
 **UseCase.tex
 (./UseCase.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
 LaTeX2e <2001/06/01>
@@ -324,39 +324,39 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--162
 \openout2 = `droit.aux'.
 
  (./droit.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--15
+Underfull \hbox (badness 10000) in paragraph at lines 17--17
 []/cmr12/Rechercher les en-
  []
 
 
-Underfull \hbox (badness 2326) in paragraph at lines 15--15
+Underfull \hbox (badness 2326) in paragraph at lines 17--17
 /cmr12/sei-gnants du groupe
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--18
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
 []/cmr12/les droits doivent ^etre
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 11--20
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 13--22
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 46--53
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 53--60
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 64--67
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 
  []
 
@@ -426,121 +426,114 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--109
 ) [18]
 \openout2 = `FAQ.aux'.
 
- (./FAQ.tex <images/FAQ.jpg, id=79, 550.055pt x 351.3125pt>
-File: images/FAQ.jpg Graphic file (type jpg)
-
-<use images/FAQ.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 7--8
+ (./FAQ.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 2253) in paragraph at lines 17--18
+Underfull \hbox (badness 2253) in paragraph at lines 20--21
 /cmr12/ques-tions et les r^^Seponses
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 13--20
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 16--23
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--20
+Underfull \hbox (badness 10000) in paragraph at lines 16--23
 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 45--46
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 []/cmr12/Utilisation de me-nus
  []
 
 
-Underfull \hbox (badness 1038) in paragraph at lines 47--48
+Underfull \hbox (badness 1038) in paragraph at lines 56--57
 []/cmr12/Action simple sans ar-chi-
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 41--50
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 50--59
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 41--50
+Underfull \hbox (badness 10000) in paragraph at lines 50--59
 
  []
 
-[19
-
-
- <./images/FAQ.jpg>]
 File: images/echelle.jpg Graphic file (type jpg)
- <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
+<use images/echelle.jpg> [19
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
 ) [20]
 \openout2 = `correction.aux'.
 
- (./correction.tex <images/correction.jpg, id=87, 477.785pt x 333.245pt>
-File: images/correction.jpg Graphic file (type jpg)
-
-<use images/correction.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
+ (./correction.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 3291) in paragraph at lines 16--16
+Underfull \hbox (badness 3291) in paragraph at lines 17--17
 []/cmr12/Consulter la cor-rec-
  []
 
 
-Underfull \hbox (badness 1946) in paragraph at lines 20--20
+Underfull \hbox (badness 1946) in paragraph at lines 21--21
 []/cmr12/Associer une cor-rec-
  []
 
 
-Underfull \hbox (badness 2582) in paragraph at lines 21--23
+Underfull \hbox (badness 2582) in paragraph at lines 22--24
 /cmr12/l'exer-cice s^^Selectionn^^Se. As-
  []
 
 
-Underfull \hbox (badness 3568) in paragraph at lines 21--23
+Underfull \hbox (badness 3568) in paragraph at lines 22--24
 /cmr12/so-cia-tion par des me-nus
  []
 
 
-Underfull \hbox (badness 1496) in paragraph at lines 24--24
+Underfull \hbox (badness 1496) in paragraph at lines 25--25
 []/cmr12/D^^Sesassocier une cor-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 /cmr12/de l'exer-cice s^^Selectionn^^Se.
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 25--27
+Underfull \hbox (badness 10000) in paragraph at lines 26--28
 /cmr12/D^^Sesassociation par des
  []
 
 
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 12--29
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 13--30
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [21
-
-
- <./images/correction.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+<use images/echelle.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
-) [22]
+) [21
+
+
+]
 \openout2 = `projet.aux'.
 
  (./projet.tex
@@ -572,7 +565,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 52--61
 
 Underfull \vbox (badness 1158) has occurred while \output is active []
 
- [23
+ [22
 
 
 ]
@@ -601,7 +594,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 101--110
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [24]
+ [23]
 File: images/echelle.jpg Graphic file (type jpg)
 
 <use images/echelle.jpg>
@@ -614,82 +607,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
 
-) [25]
+) [24]
 \openout2 = `TD.aux'.
 
- (./TD.tex <images/devoir.jpg, id=104, 694.595pt x 513.92pt>
-File: images/devoir.jpg Graphic file (type jpg)
-
-<use images/devoir.jpg>
-Overfull \hbox (59.42184pt too wide) in paragraph at lines 4--4
- [] 
- []
-
-
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 8--19
-[][] 
- []
-
-File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [26
-
-
- <./images/devoir.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 33--35
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 41--42
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
-
- []
-
-
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 53--62
-[][] 
- []
-
-File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [27]
-Underfull \hbox (badness 10000) in paragraph at lines 84--85
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
-
- []
-
-
-Underfull \hbox (badness 2951) in paragraph at lines 106--107
-/cmr12/chier se-lec-tionn^^Se pour le
- []
-
-
-Overfull \hbox (48.04668pt too wide) in paragraph at lines 102--111
+ (./TD.tex
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 9--20
 [][] 
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
 <use images/echelle.jpg>
-Underfull \hbox (badness 10000) in paragraph at lines 126--127
+Underfull \hbox (badness 10000) in paragraph at lines 34--36
 
  []
 
-[28]
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 59--68
+[][] 
+ []
+
+[25
+
+
+]
+File: images/echelle.jpg Graphic file (type jpg)
+ <use images/echelle.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
+
+ []
+
+
+Underfull \hbox (badness 2951) in paragraph at lines 117--118
+/cmr12/chier se-lec-tionn^^Se pour le
+ []
+
+
+Overfull \hbox (48.04668pt too wide) in paragraph at lines 113--122
+[][] 
+ []
+
+File: images/echelle.jpg Graphic file (type jpg)
+<use images/echelle.jpg> [26]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
-) [29]
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
+
+ []
+
+) [27]
 \openout2 = `section.aux'.
 
- (./section.tex <images/section.jpg, id=117, 421.575pt x 355.3275pt>
+ (./section.tex <images/section.jpg, id=108, 421.575pt x 355.3275pt>
 File: images/section.jpg Graphic file (type jpg)
 
 <use images/section.jpg>
@@ -703,7 +689,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 11--27
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [30
+<use images/echelle.jpg> [28
 
 
  <./images/section.jpg>]
@@ -711,10 +697,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 68--69
 
  []
 
-) [31]
+) [29]
 \openout2 = `matiere.aux'.
 
- (./matiere.tex <images/matiere.jpg, id=125, 395.4775pt x 391.4625pt>
+ (./matiere.tex <images/matiere.jpg, id=115, 395.4775pt x 391.4625pt>
 File: images/matiere.jpg Graphic file (type jpg)
 
 <use images/matiere.jpg>
@@ -733,7 +719,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 11--27
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [32
+<use images/echelle.jpg> [30
 
 
  <./images/matiere.jpg>]
@@ -741,11 +727,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-) [33]
+) [31]
 \openout2 = `enseignement.aux'.
 
  (./enseignement.tex
-<images/enseignement.jpg, id=132, 525.965pt x 489.83pt>
+<images/enseignement.jpg, id=123, 525.965pt x 489.83pt>
 File: images/enseignement.jpg Graphic file (type jpg)
 
 <use images/enseignement.jpg>
@@ -759,7 +745,7 @@ Overfull \hbox (48.04668pt too wide) in paragraph at lines 12--20
  []
 
 File: images/echelle.jpg Graphic file (type jpg)
-<use images/echelle.jpg> [34
+<use images/echelle.jpg> [32
 
 
  <./images/enseignement.jpg>]
@@ -814,7 +800,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--93
 
  []
 
-[35]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -840,7 +826,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
-) [36]
+) [34]
 \openout2 = `gantt.aux'.
 
  (./gantt.tex
@@ -850,18 +836,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-<images/gantt.jpg, id=142, 1328.965pt x 810.02625pt>
+<images/gantt.jpg, id=133, 1328.965pt x 810.02625pt>
 File: images/gantt.jpg Graphic file (type jpg)
  <use images/gantt.jpg>
-Overfull \hbox (237.68954pt too wide) in paragraph at lines 6--6
+Overfull \hbox (104.78525pt too wide) in paragraph at lines 6--6
  [] 
  []
 
-[37
+) [35
 
 
 
- <./images/gantt.jpg>]) [38]
+ <./images/gantt.jpg>]
 \openout2 = `glossaire.aux'.
 
  (./glossaire.tex
@@ -926,7 +912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--25
 
  []
 
-[39
+[36
 
 
 
@@ -990,7 +976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
 
-) [40]
+) [37]
 \openout2 = `contact.aux'.
 
  (./contact.tex
@@ -998,7 +984,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-) [41
+) [38
 
 
 ] (./UseCase.aux (./introduction.aux) (./charte.aux) (./acteur.aux)
@@ -1007,15 +993,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 (./section.aux) (./matiere.aux) (./enseignement.aux) (./gantt.aux)
 (./glossaire.aux) (./contact.aux)) ) 
 Here is how much of TeX's memory you used:
- 1684 strings out of 10428
- 20945 string characters out of 65381
+ 1671 strings out of 10428
+ 20662 string characters out of 65381
  79070 words of memory out of 263001
- 4560 multiletter control sequences out of 10000+0
+ 4548 multiletter control sequences out of 10000+0
  10749 words of font info for 41 fonts, out of 400000 for 1000
  14 hyphenation exceptions out of 1000
- 24i,9n,24p,233b,543s stack positions out of 300i,100n,500p,50000b,4000s
+ 24i,9n,24p,233b,453s stack positions out of 300i,100n,500p,50000b,4000s
 </usr/share/texmf/fonts/type1/bluesky/cm/cm
 ti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsl12.pfb></usr/share/texmf/
 fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr17
 .pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb>
-Output written on UseCase.pdf (41 pages, 573435 bytes).
+Output written on UseCase.pdf (38 pages, 491473 bytes).
