@@ -1,6 +1,6 @@
 \select@language {french}
-\contentsline {chapter}{\numberline {1}Pr\'eambule}{4}
-\contentsline {chapter}{\numberline {2}Introduction}{5}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {2}Pr\'eambule}{6}
 \contentsline {chapter}{\numberline {3}La charte graphique}{7}
 \contentsline {chapter}{\numberline {4}La zone de pr\'esentation}{8}
 \contentsline {chapter}{\numberline {5}La zone d'identification}{9}
@@ -34,3 +34,5 @@
 \contentsline {section}{\numberline {9.8}Cr\'eer un enseignement}{34}
 \contentsline {section}{\numberline {9.9}Cr\'eer un compte}{36}
 \contentsline {section}{\numberline {9.10}La corbeille}{38}
+\contentsline {chapter}{\numberline {10}Planning}{40}
+\contentsline {chapter}{\numberline {11}Contacts}{41}
