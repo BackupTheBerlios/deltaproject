@@ -1,0 +1,39 @@
+\section{Rapport avec le projet}
+
+Stuts va nous permettre de développer un modèle-vue-controlleur développé de manière facile.
+
+\section{Qu'est ce que c'est ?}
+
+Struts est un cadre de travail (framework) open source développé pour encourager une architecture applicative basée sur le modèle conceptuel Model-View-Controller (MVC), très utile dans la construction d'applications Web reposant sur la technologie des Servlets Java et des Pages Serveur Java (Java Server Pages - JSP). Il est compatible avec la plate-forme J2EE de Sun et principalement basé sur la technologie des servlets et du JSP. Le package Struts, même s'il n'en est qu'à sa révision 1.0, comporte une documentation complète. Vous y trouverez un guide utilisateur tout comme des guides pour développeurs. 
+
+Le framework en tant que tel peut être divisé en quatre parties principales, trois d'entre eux correspondant merveilleusement au modèle MVC :
+    * Le modèle, qui est un classe Action (dont nous parlerons dans une minute), subvient à la logique business écrite par le développeur. La distribution effectuée par le contrôleur à la classe Action est basée sur une configuration qui est prodiguée par le fichier struts-config.xml.
+    * La vue, qui est un ensemble de librairies JSP de balises personnalisées, travaille en concert avec la servlet du contrôleur et cela permet la création rapide de formulaires pour une application.
+    * Le contrôleur,qui est une servlet, distribue les requêtes reçues à la classe Action appropriée.
+    * Un nombre de classes utilitaires supportent l'analyse XML, l'enrichissement automatique des propriétés des JavaBean et l'internationnalisation des messages affichés.
+
+Le contrôleur est vraiment l'agent de la circulation du framework et c'est lui qui détermine à quel moment les choses arrivent. La servlet contrôleur est responsable du packaging et du routage des requêtes HTTP vers l'objet approprié du framework. Ce rôle est pris en charge soit par une page JSP, soit par une classe Action.
+Le modèle est un objet qui prend la requête d'un utilisateur et stocke les résultats pour toute la durée du process.
+L'objet vue est souvent une page JSP. Le framework Struts ne fournit pas actuellement de JSP mais il fournit par contre de nombreuses librairies de balises qui permettent une intégration aisée de JSP dans le framework. L'interaction de Struts avec JSP permet le stockage de données d'un formulaire de saisie dans un bean formulaire.
+ 
+
+voila le lien:
+http://www.projectomega.org/contents/common/php/content_mgr.php?sid=fr-3-59-71-content-O-2-1-&s=oreilly_jakarta1
+
+\section{Avantage et désavantage}
+
+Les avantages sont :
+\begin{itemize}
+\item il est extrêmement stable.
+\item économie de temps pour coder un MVP complet
+\item 
+\end{itemize}
+
+Les désavantages sont :
+\begin{itemize}
+\item compte tenu que c'est un projet à grande échelle, il y a beaucoup d'écrans et de types de requêtes différents. De ce fait, il y a beaucoup de classes Action puisque nous en avons besoin d'une seule par type de requêtes.
+\item Besoin d'apprentissage de cet outils.
+\item Necessite une bonne connaissance du modèle-vue-controlleur.
+\end{itemize}
+
+

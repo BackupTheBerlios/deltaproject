@@ -1,0 +1,100 @@
+
+-----------XPath
+
+
+XPath est un language d'expression s'appliquant a un document XML
+Il est destiné a la recherche de noeuds dans un arbre XML 
+
+syntaxe simple et non ambigue
+type usuels: chaines, nombres, booleens, variables, fonctions
+manipule aussi des noeuds et des ensembles de noeuds
+spécifie une librairies de fonction extensible
+base sur une compositions de recherches par axes
+
+XPath est utilisé par XPointer et XSLT
+XPath-1.0 est une Recommendation du W3C
+
+Examples
+
+/chapter[@type="warning"]
+//p[position()=5]
+
+
+-------------------------------------------------------------------
+
+
+
+
+XML 
+
+
+l'utilité
+
+XML (Extensible Markup Language, ou Langage Extensible de Balisage) 
+est le langage destiné à succéder à HTML sur le World Wide Web. 
+Comme HTML (Hypertext Markup Language) c'est un langage de balisage (markup), 
+c'est-à-dire un langage qui présente de l'information encadrée par des balises. 
+Mais contrairement à HTML, qui présente un jeu limité de balises orientées présentation 
+(titre, paragraphe, image, lien hypertexte, etc.), 
+XML est un métalangage, qui va permettre d'inventer à volonté de nouvelles balises 
+pour isoler toutes les informations élémentaires (titre d'ouvrage, prix d'article, 
+numéro de sécurité sociale, référence de pièce?), ou agrégats d'informations élémentaires, 
+que peut contenir une page Web. 
+
+
+Rapport avec le projet
+
+XML sera utilisé comme une base de donnée pour les exercices, 
+les projets, les TD, et toutes les données qui nécéssiteront d'être stockée.
+Les exercices seront également formatté avec un balisage XML pour permettre
+l'application de feuille de style. Elles permettront de mettre enforme le 
+rendu final des exercices à destination de l'utilisateur.
+
+
+inconvegniant
+
+Le stockage sous format XML est dans la pratique moins rapide qu'une base de donnee standard.
+Un bonne structuration des fichiers constituant alors notre base est nécéssaire pour faciliter la recherche
+et ne pas la rendre trop lente.
+
+avantage
+
+L'application de feuille de style est possible avec XML. 
+Elle nous permettra de genere les TDs dans un grand nombre de format.
+
+
+
+----------------------------------------------------------------------
+
+FOP (Formatting Objets Processor)
+
+l'utilité
+
+Le projet FOP est intégré au projet XML Apache.c'est un processeur XSL (à ne pas confondre avec XSLT) 
+acceptant en entrée un fichier XML comportant des Formatting Objects pour produire en sortie un document au format PDF. 
+Cet outil est idéal pour des applications nécessitant des besoins en impression limités en volume 
+et en complexité : factures, contrats, bons de commandes...
+
+
+Rapport avec le projet
+
+Avec FOP, on dispose d'un jeu de librairie qui vont nous permettre d'appliquer des feuilles de rendu sur des fichiers XML.
+Ces APIs vont nous servir à générer nos TDs au format PDF.
+
+inconvegniant
+
+c'est un projet developpé en communauté. L'inconveniant general est que toute les fonctionnalités ne sont pas 
+toujours présentes ou finit.
+
+
+avantage
+
+Etant developper en communauté, il à l'avantage d'être gratuit et efficace.
+C'est le render XML->PDF le plus utilisé.
+
+
+
+
+
+
+

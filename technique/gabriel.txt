@@ -1,0 +1,58 @@
+différence entre dom et sax:
+
+Lors de la parcours des fichiers XML nous avons besoin d'une API d'analyseur qui permettent de parcourir les fichiers et de trouver les éléments recherchés rapidement.
+Pour cela nous allons nous servir de librairie déjà existante.
+
+Les parseurs sont des logiciels qui permettent de lire des documents XML. Cette lecture peut être faite avec un contrôle du document par rapport à son schéma ou à sa DTD. Dans ce cas, le parseur est dit " validant ".
+
+Il existe des parseurs pour les différents langages (Java, Perl, C++, Visual Basic, JavaScript, Python, ?) et pour les différents environnements (ActiveX, Java Virtual Machine).
+
+Trois types d'interfaces sont définis entre un parseur et l'application qui l'utilise :
+
+- l'interface SAX (Simple Access to XML) qui enchaîne un ensemble de rétro appels vers l'application au fur et à mesure que les objets XML sont traités (balise de début, attribut, texte, balise de fin, ?) ;
+- l'interface DOM (Document Object Model) qui construit une hiérarchie d'objets représentant le document en mémoire (document, éléments, attributs, contenus...) ;
+
+
+
+Il n'existe pas de règles strictes et rapides permettant de savoir quand il est préférable d'utiliser telle ou telle API d'analyseur. Néanmoins, les circonstances peuvent indiquer quand l'une pourra mieux fonctionner qu'une autre. Le traitement SAX est intégralement réalisé en un seul passage. Par conséquent, SAX est généralement plus performant que DOM pour l'analyse de documents d'une taille équivalente, puisque ce dernier doit passer en revue plusieurs fois l'arborescence. De plus, comme une partie seulement d'un document XML doit se trouver en mémoire à un instant donné, SAX est généralement plus efficace que DOM en termes d'utilisation de la mémoire avec des documents volumineux : Ce problème est spécifique des structures arborescentes du DOM : les grands arbres exigent plus de mémoire et DOM doit charger la totalité du document en mémoire avant que l'analyse puisse être lancée..
+
+Côté inconvénients, les applications SAX présentent souvent des instructions if/else longues et complexes pour déterminer quelle action entreprendre lorsqu'un élément particulier est traité. De même, le traitement de structures de données réparties entre plusieurs éléments XML s'avère difficile avec SAX puisque des données intermédiaires doivent être stockées entre les événements d'analyse. Enfin, la structure de gestion des événements d'une application SAX implique généralement que les applications SAX doivent être personnalisées pour une structure de document spécifique, alors que les applications DOM peuvent rester beaucoup plus générales.
+
+Les parseurs générant des objets Java correspondant au type de document parsé n'ont pas d'interface normalisée. Plutôt que de gérer une hiérarchie d'objets de type balise, attribut, instruction de traitement, ils génèrent, dans la phase d'analyse, un objet Java par type de document. Cet objet Java dispose d'attributs correspondant aux différents éléments imbriqués, conduisant à une programmation beaucoup plus naturelle.
+
+
+
+
+
+ANT:
+
+ANT est en passe de devenir au monde Java ce que MAKE est devenu au monde du C : un outil incontournable. ANT va bien au delà d'un simple apport technique. ANT exige une réelle démarche méthodologique autour de l'organisation des fichiers et de leur devenir dans les différents processus de livraison (avec des problémes tels que la séparation sources-livrables ou la gestion multi-environnements/multi-OS). Il possède tous les atouts propres aux standards : simple, bâti sur des technologies ouvertes (Java et XML), extensible, et supporté par des acteurs stratégiques (dont IBM, SUN et BEA pour les sociétés commerciales, mais aussi la grande majorité de la communauté Java OpenSource). 
+
+Pourquoi ANT ?
+Selon les domaines d'application, il existe différents moyens d'automatiser des traitements batchs : fichiers batchs, outil MAKE, programmes d'ordonnancements, installateurs voire des programmes développés spécifiquement. 
+
+Utilisé quotidiennement depuis plus de 2 ans au sein de communautés OpenSource comme de grandes entreprises commerciales, ANT est assurément robuste, mais pas plus que d'autres produits déjà éprouvés depuis de nombreuses années. ANT est également extrêmement efficace dans le sens où il peut prendre en charge de nombreuses problématiques mais s'il est performant dans certains domaines (eg. : construction d'application), d'autres produits présentent une meilleurs qualité de service dans d'autres domaines (eg. : installation de logiciels) .
+
+Avantage :
+Pourtant, ANT dispose de nombreux différenciateurs qui le rendent unique :
+portabilité : implémenté en Java et configurable via XML, un module d'automatisation réalisé avec ANT fonctionne de la même façon sous n'importe quel OS supportant Java. ANT permet également d'effectuer des traitements spécifiques selon l'OS (chmod sous Unix, adaptation des caractères spéciaux CR/LF, ...)
+extensibilité : ANT est conçu de telle manière que l'intégration de nouvelles tâches (interfaçage avec un produit, opération utilitaire, ...) est un jeu d'enfants. Il est aussi possible de particulariser l'exécution à l'aide d'un mécanisme de listeners suivant tout le déroulement du traitement.
+simplicité : quiconque sait lire une documentation et peut atteindre les touches de son clavier est en mesure d'utiliser ANT. La configuration XML est simple, tout comme les concepts de base. Il est parfois plus facile d'utiliser certains outils via ANT (eg. : javadoc ou javac) du fait de l'homogénéité des tâches ANT qui les interfacent, que ce soit au niveau de leur syntaxe ou de leur documentation.
+configuration XML : le fait que ANT soit configurable via XML permet à la fois de s'affranchir de l'apprentissage d'un nouveau format propriétaire (mais pas de la syntaxe !) et de bénéficier des nombreux moyens de traitement disponibles autour d'XML, par exemple pour créer un document procédural au format HTML directement à partir de la configuration ANT via XSL.
+OpenSource : sans insister sur les avantages offerts par l'OpenSource, trois points méritent d'être soulignés : 1 - les sources sont facilement lisibles du fait que ANT est de taille modeste et bien écrit, 2 - contrairement à d'autres projets OpenSource, ANT n'induit aucun coût caché (assistance technique, documentation payante, ...), 3 - la licence Apache protégeant ANT est très permissive, elle permet notamment de commercialiser un produit bâti sur ANT.
+popularité : ANT s'impose peu à peu dans la plupart des développements Java en devenant un standard pour la construction d'applications, ce qui lui garantit une pérennité certaine.
+
+Default :
+
+L'absence d'interface graphique constitue néanmoins un frein important pour bon nombre d'utilisateurs. ANT n'en propose pas plus pour l'administration que pour le suivi de l'exécution. Le projet Antidote devait combler cette lacune, mais son développement se fait attendre. D'autres projets aboutiront sans aucun doute dans un futur proche. Il faut également souligner que la plupart des IDE Java disposent de plugins dédiés à l'utilisation de ANT, avec leur propre interface graphique : JBuilder, Eclipse/WSAD, NetBeans/Forte, Intellij IDEA, ...
+
+ANT ne se réduit pas à un outil de construction. Son caractère extensible lui a permis d'accueillir des tâches diverses (commandes FTP, envoi de mail, manipulations XML, interfaçage avec des systèmes de gestion de versions, ...) lui conférant ainsi un intérêt dans une multitude de domaines. Extensibilité qui permet également de lui greffer de nouvelles tâches répondant à des besoins spécifiques.
+
+
+JDBC :
+
+JDBC a été conçu pour garder simples, les choses simples. Cela veut dire que l'API JDBC fait des tâches quotidiennes sur les bases de données (comme les requêtes SELECT...) quelque chose de très facile. Il permet de faire la relation entre le programme et la base.
+
+Nous allons nous servir de cette librairie uniquement pour accéder au login et au mot de passe des utilisateurs qui seront stocké dans une base SQL ( car nous récupérons une base déjà éxistante contenant tous les logins des enseignents).
+
+

@@ -1,0 +1,45 @@
+TOMCAT est un conteneur de servlet.
+
+Le conteneur de servlet associe à une URL virtuelle une servlet.
+TOMCAT intégre les servlets et les JSP.
+
+Nous avons choisi d'utiliser TOMCAT car il respecte une norme concernant les technologies Java Servlet et JavaServer Pages.
+
+
+Servlet 
+
+Une servlet est un programme Java qui réside et s'exécute sur un serveur pour apporter des fonctionnalités ou traiter des données sur le serveur. 
+Son exécution n'est pas visible du côté client, elle est transparente. En effet, les données sont traduites avant d'être envoyées vers le client.
+
+Inconvénient : Trop long à écrire dans des pages html.
+Solution : Utilisation de JSP.
+
+Le JSP (Java Server Pages) 
+
+Le JSP est une technologie pour controller le contenu ou l'apparence de pages web à travers les servlets (définie précédemment). Parfois, le JSP est représenté comme l'interface des programmes d'application servlets.
+Le JSP permet d'entrelacer du code HTML avec du code Java.
+Malgré le fait que les JSP paraissent différentes des servlets, Java traduit les JSP en servlets. Ce qui signifie que les JSP sont en fait juste une représentation plus aisé des servlets
+
+Dans notre application, nous allons utiliser le JSP pour l'affchage en HTML et les servlets pour les traitements. Donc, nos programmes JSP vont faire appel à des servlets.
+
+
+JUnit
+
+Le JUnit est une structure permettant de faire du code sûr, fiable, qui marchera dans toutes les situations et dans le temps.
+
+Inconvénients :
+Au départ, le code sera un peu long. En effet, en plus du code pour l'application, il faudra rajouter du code pour tester le code précédent.
+
+Avantages :
+Le JUnit est un façon de regrouper les expressions tels que print, les debuggers et les scripts de tests en des objets permettant de garantir le code. Le fait que les test sont des objets garantis une lisibilité du code. En effet, cela évite l'utilisation d'écriture sur la sortie standard avec l'appel de print.
+Cela va permettre à nos développeurs d'éviter de faire trop d' efforts supplémentaires quant aux erreurs.
+JUnit permet également à des personnes qui n'ont pas codé ce code d'interprété les réultats générés. 
+
+JUnit distingue les échecs des erreurs. En effet, un échec peut être anticipé alors qu'une erreur ne peut pas. 
+
+
+
+
+
+
+
