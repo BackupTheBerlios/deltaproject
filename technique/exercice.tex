@@ -1,0 +1,44 @@
+\section{Diagramme des exercices}
+
+Nous présentons ici la gestion des exercices.\\
+
+Pour commencer, voyons un aperçu des différentes classes entrants en
+jeu :
+\begin{center}
+\scalebox{0.6}{\includegraphics{images/ex_td_proj_Class.jpg}}\\
+\par Diagramme de classes.\\
+\end{center}
+
+\begin{itemize}
+\item Exercice : Représente un objet contenant les données d'un
+exercice. Après sa création, il est stocké dans ExerciceManager.\\
+
+\item ExerciceManager : C'est l'objet qui gère les exercices, il
+s'occupe de leur création, recherche.\\
+
+\item ExerciceData : Il gére le stockage des exercices dans
+leur intégralité. Le ExerciceManager lui fait appel pour toutes les
+opérations.\\
+
+\item Trash : C'est l'objet qui collecte tous les
+exercices mis à la poubelle par leur créateurs. Il les conserve
+jusqu'a leur suppression définitive.\\
+
+\item FAQManager : Il gère l'ensemble des Foire Aux Questions et intéragit
+avec le ExerciceManager pour la création ou la suppression de FAQ dans
+un exercice donné.\\
+
+\item CorrectionManager : Il gère l'ensemble des corrections et intéragit
+avec le ExerciceManager pour la création ou la suppression de correction dans
+un exercice donné.
+\end{itemize}
+\begin{center}
+\scalebox{0.6}{\includegraphics{images/exo_trash_search.jpg}}\\
+\par Diagramme de séquence de la recherche et de la suppression des exercices\newpage 
+\scalebox{0.6}{\includegraphics{images/exo_faq_correction.jpg}}\\
+\par Diagramme de séquence de la FAQ et de la correction\\
+\scalebox{0.6}{\includegraphics{images/exo_display.jpg}}\\
+\par Diagramme de séquence de l'affichage\newpage
+\scalebox{0.6}{\includegraphics{images/exo_new.jpg}}\\
+\par Diagramme de séquence de la création.\\
+\end{center}

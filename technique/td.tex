@@ -1,0 +1,27 @@
+\section{Diagramme des TD}
+
+Nous présentons ici la gestion des td.\\
+
+\begin{itemize}
+\item TD : Représente un objet contenant les données d'un
+TD. Après sa création, il est stocké dans TDManager.\\
+
+\item TDManager : C'est l'objet qui gère les td, il
+s'occupe de leur création, recherche.\\
+
+\item TeachingData : Il gére le stockage des TD dans
+leur intégralité. Le TDManager lui fait appel pour toutes les
+opérations.\\
+
+\item Trash : C'est l'objet qui collecte tous les
+TD mis à la poubelle par leur créateurs. Il les conserve
+jusqu'a leur suppression définitive.\\
+
+\item TeachingManager : Il gère l'ensemble des TD pour la création ou la suppression.\\
+\end{itemize}
+
+
+\begin{center}
+\scalebox{0.6}{\includegraphics{images/td.jpg}}\\
+\par Diagramme de séquence des TD\\
+\end{center}

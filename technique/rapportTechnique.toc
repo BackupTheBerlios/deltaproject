@@ -1,18 +1,22 @@
 \select@language {french}
 \contentsline {chapter}{\numberline {1}Les Diagrammes}{3}
 \contentsline {section}{\numberline {1.1}Diagramme de compte et de droit}{3}
-\contentsline {section}{\numberline {1.2}Diagramme d'enseignement/section/mati\`ere}{6}
-\contentsline {chapter}{\numberline {2}Biblioth\`eques et logiciels utilis\'es}{9}
-\contentsline {section}{\numberline {2.1}Biblioth\`eques}{9}
-\contentsline {section}{\numberline {2.2}Tomcat}{9}
-\contentsline {subsection}{\numberline {2.2.1}Servlet}{10}
-\contentsline {subsection}{\numberline {2.2.2}Java Server Pages (JSP)}{10}
-\contentsline {section}{\numberline {2.3}JUnit}{10}
-\contentsline {section}{\numberline {2.4}Antidote (Ant)}{11}
-\contentsline {section}{\numberline {2.5}Strusts}{12}
-\contentsline {section}{\numberline {2.6}Mozilla Midas}{13}
-\contentsline {section}{\numberline {2.7}XML et XSLT}{13}
-\contentsline {section}{\numberline {2.8}FOP}{14}
-\contentsline {section}{\numberline {2.9}Les parseurs}{15}
-\contentsline {section}{\numberline {2.10}Java DataBase Connection (JDBC)}{16}
-\contentsline {chapter}{\numberline {3}Contacts}{17}
+\contentsline {section}{\numberline {1.2}Diagramme d'enseignement/section/mati\`ere}{7}
+\contentsline {section}{\numberline {1.3}Diagramme des exercices}{10}
+\contentsline {section}{\numberline {1.4}Diagramme des projets}{14}
+\contentsline {section}{\numberline {1.5}Diagramme des TD}{16}
+\contentsline {chapter}{\numberline {2}Biblioth{\`e}ques et logiciels utilis{\'e}s}{17}
+\contentsline {section}{\numberline {2.1}Biblioth{\`e}ques}{17}
+\contentsline {section}{\numberline {2.2}Tomcat}{17}
+\contentsline {subsection}{\numberline {2.2.1}Servlet}{18}
+\contentsline {subsection}{\numberline {2.2.2}Java Server Pages (JSP)}{18}
+\contentsline {section}{\numberline {2.3}JUnit}{18}
+\contentsline {section}{\numberline {2.4}Antidote (Ant)}{19}
+\contentsline {section}{\numberline {2.5}Strusts}{20}
+\contentsline {section}{\numberline {2.6}Mozilla Midas}{21}
+\contentsline {section}{\numberline {2.7}XML et XSLT}{21}
+\contentsline {section}{\numberline {2.8}FOP}{22}
+\contentsline {section}{\numberline {2.9}Les parseurs}{23}
+\contentsline {section}{\numberline {2.10}Java DataBase Connection (JDBC)}{24}
+\contentsline {section}{\numberline {2.11}Concurrent Versions System (CVS)}{24}
+\contentsline {chapter}{\numberline {3}Contacts}{25}

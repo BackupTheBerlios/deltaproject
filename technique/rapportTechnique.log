@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  14 MAR 2003 19:17
+This is pdfTeX, Version 3.14159-1.00a-pretest-20011114-ojmw (Web2C 7.3.7) (format=pdflatex 2002.1.30)  14 MAR 2003 20:56
 **rapportTechnique.tex
 (./rapportTechnique.tex{/usr/share/texmf/pdftex/config/pdftex.cfg}
 LaTeX2e <2001/06/01>
@@ -79,7 +79,8 @@ Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 ) (./rapportTechnique.aux
-(./account.aux) (./teaching.aux) (./bibliotheque.aux) (./contact.aux))
+(./account.aux) (./teaching.aux) (./exercice.aux) (./projet.aux) (./td.aux)
+(./bibliotheque.aux) (./contact.aux))
 \openout1 = `rapportTechnique.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
@@ -161,8 +162,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
+<images/droitCompteClass.jpg, id=17, 570.13pt x 489.83pt>
+File: images/droitCompteClass.jpg Graphic file (type jpg)
 
-Underfull \hbox (badness 10000) in paragraph at lines 8--11
+<use images/droitCompteClass.jpg> [3
+
+
+ <./images/droitCompteClass.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 20--23
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 24--30
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 31--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--37
+
+ []
+
+<images/compte.jpg, id=21, 661.47125pt x 974.64125pt>
+File: images/compte.jpg Graphic file (type jpg)
+ <use images/compte.jpg>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [4]
+<images/droit.jpg, id=28, 695.59875pt x 415.5525pt>
+File: images/droit.jpg Graphic file (type jpg)
+ <use images/droit.jpg>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5 <./images/compte.jpg>]) [6 <./images/droit.jpg>]
+\openout2 = `teaching.aux'.
+
+ (./teaching.tex
+<images/ens_mat_secClass.jpg, id=35, 688.5725pt x 511.9125pt>
+File: images/ens_mat_secClass.jpg Graphic file (type jpg)
+
+<use images/ens_mat_secClass.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
@@ -172,12 +217,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--16
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 17--23
+Underfull \hbox (badness 10000) in paragraph at lines 17--20
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--26
+Underfull \hbox (badness 10000) in paragraph at lines 21--24
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--30
+
+ []
+
+<images/creerEnseignement.jpg, id=36, 608.2725pt x 363.3575pt>
+File: images/creerEnseignement.jpg Graphic file (type jpg)
+
+<use images/creerEnseignement.jpg> [7
+
+
+ <./images/ens_mat_secClass.jpg>]
+<images/rechercherEns.jpg, id=41, 503.8825pt x 361.35pt>
+File: images/rechercherEns.jpg Graphic file (type jpg)
+
+<use images/rechercherEns.jpg>
+<images/mettreEnsCorbeille.jpg, id=42, 626.34pt x 449.68pt>
+File: images/mettreEnsCorbeille.jpg Graphic file (type jpg)
+
+<use images/mettreEnsCorbeille.jpg>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./images/creerEnseignement.jpg> <./images/rechercherEns.jpg>]
+<images/supprimerEns.jpg, id=46, 650.43pt x 331.2375pt>
+File: images/supprimerEns.jpg Graphic file (type jpg)
+
+<use images/supprimerEns.jpg>) [9 <./images/mettreEnsCorbeille.jpg> <./images/s
+upprimerEns.jpg>]
+\openout2 = `exercice.aux'.
+
+ (./exercice.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+<images/ex_td_proj_Class.jpg, id=50, 694.595pt x 517.935pt>
+File: images/ex_td_proj_Class.jpg Graphic file (type jpg)
+
+<use images/ex_td_proj_Class.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--22
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--26
 
  []
 
@@ -186,79 +294,111 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--30
 
  []
 
-<images/compte.jpg, id=17, 661.47125pt x 974.64125pt>
-File: images/compte.jpg Graphic file (type jpg)
- <use images/compte.jpg>
+[10
+
+
+ <./images/ex_td_proj_Class.jpg>]
+<images/exo_trash_search.jpg, id=54, 608.2725pt x 505.89pt>
+File: images/exo_trash_search.jpg Graphic file (type jpg)
+
+<use images/exo_trash_search.jpg> [11 <./images/exo_trash_search.jpg>]
+<images/exo_faq_correction.jpg, id=58, 613.29124pt x 442.65375pt>
+File: images/exo_faq_correction.jpg Graphic file (type jpg)
+
+<use images/exo_faq_correction.jpg>
+<images/exo_display.jpg, id=59, 647.41875pt x 286.06876pt>
+File: images/exo_display.jpg Graphic file (type jpg)
+
+<use images/exo_display.jpg> [12 <./images/exo_faq_correction.jpg> <./images/ex
+o_display.jpg>] <images/exo_new.jpg, id=63, 645.41125pt x 728.7225pt>
+File: images/exo_new.jpg Graphic file (type jpg)
+
+<use images/exo_new.jpg>) [13 <./images/exo_new.jpg>]
+\openout2 = `projet.aux'.
+
+ (./projet.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+<images/projet.jpg, id=68, 712.6625pt x 973.6375pt>
+File: images/projet.jpg Graphic file (type jpg)
+ <use images/projet.jpg>
+Overfull \hbox (0.80946pt too wide) in paragraph at lines 18--18
+ [] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3
+ [14
 
 
-]
-<images/droit.jpg, id=21, 695.59875pt x 415.5525pt>
-File: images/droit.jpg Graphic file (type jpg)
- <use images/droit.jpg>
-Underfull \vbox (badness 10000) has occurred while \output is active []
+])
+[15 <./images/projet.jpg>]
+\openout2 = `td.aux'.
 
- [4 <./images/compte.jpg>]) [5 <./images/droit.jpg>]
-\openout2 = `teaching.aux'.
-
- (./teaching.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--5
+ (./td.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 7--10
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--14
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 15--18
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 19--21
+Underfull \hbox (badness 10000) in paragraph at lines 16--19
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 22--24
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-<images/creerEnseignement.jpg, id=31, 676.5275pt x 327.2225pt>
-File: images/creerEnseignement.jpg Graphic file (type jpg)
-
-<use images/creerEnseignement.jpg>
-<images/rechercherEns.jpg, id=32, 445.665pt x 266.9975pt>
-File: images/rechercherEns.jpg Graphic file (type jpg)
-
-<use images/rechercherEns.jpg>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6
+<images/td.jpg, id=75, 680.5425pt x 570.13pt>
+File: images/td.jpg Graphic file (type jpg)
+ <use images/td.jpg>) [16
 
 
- <./images/creerEnseignement.jpg>]
-<images/mettreEnsCorbeille.jpg, id=36, 616.3025pt x 361.35pt>
-File: images/mettreEnsCorbeille.jpg Graphic file (type jpg)
-
-<use images/mettreEnsCorbeille.jpg>
-<images/supprimerEns.jpg, id=37, 666.49pt x 391.4625pt>
-File: images/supprimerEns.jpg Graphic file (type jpg)
-
-<use images/supprimerEns.jpg>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [7 <./images/rechercherEns.jpg> <./images/mettreEnsCorbeille.jpg>]) [8 <./imag
-es/supprimerEns.jpg>]
+ <./images/td.jpg>]
 \openout2 = `bibliotheque.aux'.
 
  (./bibliotheque.tex
@@ -286,7 +426,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--37
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [9
+ [17
 
 
 
@@ -320,7 +460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--79
 
  []
 
-[10]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 80--82
 
  []
@@ -330,7 +470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 108--111
 
  []
 
-[11]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 113--115
 
  []
@@ -350,7 +490,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 131--134
 
  []
 
-[12]
+[20]
 Underfull \hbox (badness 10000) in paragraph at lines 138--139
 
  []
@@ -380,7 +520,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--186
 
  []
 
-[13]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 187--191
 
  []
@@ -416,7 +556,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--222
 
  []
 
-[14]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 223--227
 
  []
@@ -442,7 +582,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 241--261
 
  []
 
-[15]) [16]
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 268--271
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 276--279
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 280--282
+
+ []
+
+) [24]
 \openout2 = `contact.aux'.
 
  (./contact.tex
@@ -453,26 +613,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
  []
 
 )
-Overfull \hbox (88.03294pt too wide) in paragraph at lines 6--33
+Overfull \hbox (88.03294pt too wide) in paragraph at lines 6--36
 [][] 
  []
 
-[17
+[25
 
 
 
-] (./rapportTechnique.aux (./account.aux) (./teaching.aux)
-(./bibliotheque.aux) (./contact.aux)) ) 
+] (./rapportTechnique.aux (./account.aux) (./teaching.aux) (./exercice.aux)
+(./projet.aux) (./td.aux) (./bibliotheque.aux) (./contact.aux)) ) 
 Here is how much of TeX's memory you used:
- 1551 strings out of 10428
- 19277 string characters out of 65381
- 72567 words of memory out of 263001
- 4521 multiletter control sequences out of 10000+0
+ 1618 strings out of 10428
+ 20639 string characters out of 65381
+ 73318 words of memory out of 263001
+ 4560 multiletter control sequences out of 10000+0
  11056 words of font info for 42 fonts, out of 400000 for 1000
  14 hyphenation exceptions out of 1000
- 24i,7n,24p,671b,371s stack positions out of 300i,100n,500p,50000b,4000s
-</usr/share/texmf/fonts/type1/bluesky/cm
-/cmti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmsl12.pfb></usr/share/tex
-mf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cm
-r17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx12.pfb>
-Output written on rapportTechnique.pdf (17 pages, 241316 bytes).
+ 24i,7n,24p,715b,371s stack positions out of 300i,100n,500p,50000b,4000s
+</usr/share/te
+xmf/fonts/type1/bluesky/cm/cmti12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/
+cmsl12.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmr12.pfb></usr/share/texmf
+/fonts/type1/bluesky/cm/cmr17.pfb></usr/share/texmf/fonts/type1/bluesky/cm/cmbx
+12.pfb>
+Output written on rapportTechnique.pdf (25 pages, 683762 bytes).
