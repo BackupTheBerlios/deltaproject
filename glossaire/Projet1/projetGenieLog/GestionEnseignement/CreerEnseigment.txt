@@ -1,0 +1,14 @@
+Prerequis:
+Il faut être identifié.
+
+
+scénario:
+L'enseignant pénêtre dans l'intranet. 
+Il s'identifie avec son login et son mot de passe. 
+Il sélectionne successivement les liens lui permettant de se diriger vers la page de création de section et de matière.
+Il désigne le nom de la nouvelle section ou matière qu'il veut créer. Il designe son emplacement d'indexation. Il valide ses choix.
+
+
+
+postrequis:
+une nouvelle section ou matière est créée.

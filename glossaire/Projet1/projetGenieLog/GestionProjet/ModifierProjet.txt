@@ -1,0 +1,19 @@
+Prerequis:
+Etre identifié.
+Il faut qu'au moins un projet soit enregistré. 
+
+
+scénario:
+L'enseignant pénêtre dans l'intranet. Il s'identifie avec son login et son mot de passe. 
+Il sélectionne le liens lui permettant de se diriger vers la page des projets dans une section et matière précise.
+Il peut déplacer le projet dans une autre section et matière. 
+Il peut modifier le projet par un autre exercice de type projet dans la liste des exercices.
+Il valide sa selection.
+
+Warning:
+Si l'enseignant qui modifie le projet n'est pas son créateur, alors une sauvegarde de l'élement modifié sera effectué pour avoir la possibilité de revenir sur cette modification.
+
+
+
+postrequis:
+le projet est modifié dans la liste des projets disponibles.

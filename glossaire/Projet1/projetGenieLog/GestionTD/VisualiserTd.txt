@@ -1,0 +1,13 @@
+Prérequis:
+Il faut qu'il y ait au moins un TD de créé
+
+
+scénario:
+
+L'utilisateur pénêtre dans l'intranet.
+Il sélectionne successivement les liens lui permettant d'atteindre le TD.
+Il clique pour le visualiser.
+
+postrequis:
+
+Le TD sélection est affiché au format HTML.
